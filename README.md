@@ -1,7 +1,7 @@
 # LeetCodePractice
 Practice of LeetCode
 
-| **No.**| **Title** | **Solution** | **Difficult** | **Related Topics** |
+| **No.**| **Title** | **Solution** | **Difficulty** | **Related Topics** |
 |------|-----------|--------------|---------------|--------------------|
 |1|Two Sum|[1.py](1.py)|Easy|array, hash table|
 |2|Add Two Numbers|[2.py](2.py)|Medium|linked list, math|
