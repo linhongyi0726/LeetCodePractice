@@ -6,4 +6,4 @@ class Solution:
             if n in x:
                 return [x[n], i]
             else:
-                x[n] = i
+                x[num] = i
