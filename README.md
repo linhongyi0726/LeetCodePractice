@@ -32,6 +32,7 @@ Practice of LeetCode
 |104|Maximum Depth of Binary Tree|[104.py](104.py)|Easy|Tree, Depth-first Search|
 |107|Binary Tree Level Order Traversal II|[107.py](107.py)|Easy|Tree, Breadth-first Search|
 |108|Convert Sorted Array to Binary Search Tree|[108.py](108.py)|Easy|Tree, Depth-first Search|
+|110|Balanced Binary Tree|[110.py](110.py)|Easy|Tree, Depth-first Search, Recursion|
 |125|Valid Palindrome|[125.py](125.py)|Easy|Two Pointers,String|
 |268|Missing Number|[268.py](268.py)|Easy|Array, Math, Bit Manipulation|
 |342|Power of Four|[342.py](342.py)|Easy|Bit Manipulation|
