@@ -1,3 +1,7 @@
+"""
+    Use stack to match left/right brackets
+    T: O(n)/S: O(n)
+"""
 class Solution:
     def isValid(self, s: str) -> bool:
         mapping = {'(': ')', '[': ']', '{': '}'}
