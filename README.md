@@ -18,7 +18,7 @@ Practice of LeetCode
 |28|Implement strStr()|[Python](0028.py)|Easy|Two Pointers, String|
 |35|Search Insert Position|[Python](0035.py)|Easy|Array, Binary Search|
 |38|Count and Say|[Python](0038.py)|Easy|String|
-|53|Maximum Subarray|[Python](0053.py)|Easy|Array, Divide and Conquer, Dynamic Programming|
+|53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
 |66|Plus One|[Python](0066.py)|Easy|Array|
 |67|Add Binary|[Python](0067.py)|Easy|Math, String|
@@ -32,14 +32,16 @@ Practice of LeetCode
 |104|Maximum Depth of Binary Tree|[Python](0104.py)|Easy|Tree, Depth-first Search|
 |107|Binary Tree Level Order Traversal II|[Python](0107.py)|Easy|Tree, Breadth-first Search|
 |108|Convert Sorted Array to Binary Search Tree|[Python](0108.py)|Easy|Tree, Depth-first Search|
-|110|Balanced Binary Tree|[Python](0110.py)|Easy|Tree, Depth-first Search, Recursion|
+|110|Balanced Binary Tree|[C++](0110.cpp), [Python](0110.py)|Easy|Tree, Depth-first Search, Binary tree|
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
+|206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
+|235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
-|704|Binary Search|[C++](0704.py)|Easy|Array, Binary Search|
-|733|Flood Fill|C++|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
+|704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
+|733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
