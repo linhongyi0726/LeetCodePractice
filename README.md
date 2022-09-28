@@ -23,7 +23,7 @@ Practice of LeetCode
 |66|Plus One|[Python](0066.py)|Easy|Array|
 |67|Add Binary|[Python](0067.py)|Easy|Math, String|
 |69|Sqrt(x)|[Python](0069.py)|Easy|Math, Binary Search|
-|70|Climbing Stairs|[Python](0070.py)|Easy|Dynamic Programming|
+|70|Climbing Stairs|[C++](0070.cpp), [Python](0070.py)|Easy|Math, Dynamic Programming, Memoization|
 |78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
 |88|Merge Sorted Array|[Python](0088.py)|Easy|Array, Two Pointers|
@@ -42,6 +42,8 @@ Practice of LeetCode
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
+|278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
+|383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
