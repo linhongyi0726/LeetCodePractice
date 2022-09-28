@@ -35,8 +35,10 @@ Practice of LeetCode
 |110|Balanced Binary Tree|[C++](0110.cpp), [Python](0110.py)|Easy|Tree, Depth-first Search, Binary tree|
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
+|141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
+|232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|

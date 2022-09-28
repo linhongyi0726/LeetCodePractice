@@ -8,7 +8,7 @@
     2.
     Because s and t only consist of lowercase English letters
     -> We can only use a vector to store all 26 letters' counts
-    T: O(n)/S :O(1)
+    T: O(n)/S: O(1)
 */
 
 class Solution {
