@@ -19,12 +19,8 @@ public:
     bool canConstruct(string ransomNote, string magazine) {
         unordered_map<char, int> mp;
         int i;
-        for (i = 0; i < magazine.size(); ++i) {
-            if (mp.count(magazine[i]))
-                mp[magazine[i]]++;
-            else
-                mp[magazine[i]] = 1;
-        }
+        for (i = 0; i < magazine.size(); ++i)
+            mp[magazine[i]]++;
         for (i = 0; i < ransomNote.size(); ++i) {
             if (mp.count(ransomNote[i])) {
                 if (mp[ransomNote[i]] == 0)

@@ -21,7 +21,7 @@ Practice of LeetCode
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
 |66|Plus One|[Python](0066.py)|Easy|Array|
-|67|Add Binary|[Python](0067.py)|Easy|Math, String|
+|67|Add Binary|[C++](0069.cpp), [Python](0067.py)|Easy|Math, String, Bit Manipulation, Simulation|
 |69|Sqrt(x)|[Python](0069.py)|Easy|Math, Binary Search|
 |70|Climbing Stairs|[C++](0070.cpp), [Python](0070.py)|Easy|Math, Dynamic Programming, Memoization|
 |78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
@@ -36,6 +36,7 @@ Practice of LeetCode
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
+|169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
@@ -45,6 +46,7 @@ Practice of LeetCode
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
+|409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
