@@ -29,7 +29,7 @@ Practice of LeetCode
 |88|Merge Sorted Array|[Python](0088.py)|Easy|Array, Two Pointers|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
-|104|Maximum Depth of Binary Tree|[Python](0104.py)|Easy|Tree, Depth-first Search|
+|104|Maximum Depth of Binary Tree|[C++](0104.cpp), [Python](0104.py)|Easy|Tree, Depth-First Search, Breadth-First Search, Binary tree|
 |107|Binary Tree Level Order Traversal II|[Python](0107.py)|Easy|Tree, Breadth-first Search|
 |108|Convert Sorted Array to Binary Search Tree|[Python](0108.py)|Easy|Tree, Depth-first Search|
 |110|Balanced Binary Tree|[C++](0110.cpp), [Python](0110.py)|Easy|Tree, Depth-first Search, Binary tree|
@@ -38,6 +38,7 @@ Practice of LeetCode
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
+|217|Contains Duplicate|[C++](0217.cpp)|Easy|Array, Hash Table, Sorting|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
@@ -48,6 +49,8 @@ Practice of LeetCode
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
+|543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
+|876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
