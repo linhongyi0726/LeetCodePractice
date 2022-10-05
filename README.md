@@ -5,7 +5,7 @@ Practice of LeetCode
 |-------|---------|------------|--------------|------------------|
 |1|Two Sum  |[C](0001.c), [C++](0001.cpp), [Python](0001.py)|Easy|Array, Hash Table|
 |2|Add Two Numbers|[Python](0002.py)|Medium|Linked List, Math|
-|3|Longest Substring Without Repeating Characters|[Python](0003.py)|Medium|Hash Table, Two Pointers, String, Sliding Window|
+|3|Longest Substring Without Repeating Characters|[C++](0003.cpp), [Python](0003.py)|Medium|Hash Table, String, Sliding Window|
 |4|Median of Two Sorted Arrays|[Python](0004.py)|Hard|Array, Binary Search, Divide and Conquer|
 |7|Reverse Integer|[Python](0007.py)|Easy|Math|
 |9|Palindrome Number|[C](0009.c), [Python](0009.py)|Easy|Math|
@@ -19,6 +19,7 @@ Practice of LeetCode
 |35|Search Insert Position|[Python](0035.py)|Easy|Array, Binary Search|
 |38|Count and Say|[Python](0038.py)|Easy|String|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
+|57|Insert Interval|[C++](0057.cpp)|Medium|Array|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
 |66|Plus One|[Python](0066.py)|Easy|Array|
 |67|Add Binary|[C++](0069.cpp), [Python](0067.py)|Easy|Math, String, Bit Manipulation, Simulation|
@@ -49,8 +50,10 @@ Practice of LeetCode
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
+|542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
+|973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
