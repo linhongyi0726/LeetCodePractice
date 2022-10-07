@@ -11,6 +11,7 @@ Practice of LeetCode
 |9|Palindrome Number|[C](0009.c), [Python](0009.py)|Easy|Math|
 |13|Roman to Integer|[Python](0013.py)|Easy|Math, String|
 |14|Longest Common Prefix|[Python](0014.py)|Easy|String|
+|15|3Sum|[C++](0015.cpp)|Medium|Array, Two Pointers, Sorting|
 |20|Valid Parentheses|[C++](0020.cpp), [Python](0020.py)|Easy|String, Stack|
 |21|Merge Two Sorted Lists|[C++](0021.cpp), [Python](0021.py)|Easy|Linked List|
 |26|Remove Duplicates from Sorted Array|[Python](0026.py)|Easy|Array, Two Pointers|
@@ -30,12 +31,14 @@ Practice of LeetCode
 |88|Merge Sorted Array|[Python](0088.py)|Easy|Array, Two Pointers|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
+|102|Binary Tree Level Order Traversal|[C++](0102.cpp)|Medium|Tree, Breadth-First Search, Binary Tree|
 |104|Maximum Depth of Binary Tree|[C++](0104.cpp), [Python](0104.py)|Easy|Tree, Depth-First Search, Breadth-First Search, Binary tree|
 |107|Binary Tree Level Order Traversal II|[Python](0107.py)|Easy|Tree, Breadth-first Search|
 |108|Convert Sorted Array to Binary Search Tree|[Python](0108.py)|Easy|Tree, Depth-first Search|
 |110|Balanced Binary Tree|[C++](0110.cpp), [Python](0110.py)|Easy|Tree, Depth-first Search, Binary tree|
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
+|133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|

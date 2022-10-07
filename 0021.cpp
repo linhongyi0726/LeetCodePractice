@@ -94,7 +94,6 @@ public:
             list2->next = mergeTwoLists(list1, list2->next);
             return list2;
         } else {
-            cout << list->value << endl;
             list1->next = mergeTwoLists(list1->next, list2);
             return list1;
         }
