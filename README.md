@@ -40,8 +40,11 @@ Practice of LeetCode
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
 |133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
+|150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
+|207|Course Schedule|[C++](0207.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
+|208|Implement Trie (Prefix Tree)|[C++](0208.cpp)|Medium|Hash Table, String, Design, Trie|
 |217|Contains Duplicate|[C++](0217.cpp)|Easy|Array, Hash Table, Sorting|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
