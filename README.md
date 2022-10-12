@@ -49,11 +49,13 @@ Practice of LeetCode
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
+|238|Product of Array Except Self|[C++](0238.cpp)|Medium|Array, Prefix Sum|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
-|383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
+|322|Coin Change|[C++](0322.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search|
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
+|383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
