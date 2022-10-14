@@ -29,6 +29,7 @@ Practice of LeetCode
 |78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
 |88|Merge Sorted Array|[Python](0088.py)|Easy|Array, Two Pointers|
+|98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
 |102|Binary Tree Level Order Traversal|[C++](0102.cpp)|Medium|Tree, Breadth-First Search, Binary Tree|
@@ -41,6 +42,7 @@ Practice of LeetCode
 |133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
+|155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |207|Course Schedule|[C++](0207.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
