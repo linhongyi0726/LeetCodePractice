@@ -3,7 +3,7 @@ Practice of LeetCode
 
 |**No.**|**Title**|**Solution**|**Difficulty**|**Related Topics**|
 |-------|---------|------------|--------------|------------------|
-|1|Two Sum  |[C](0001.c), [C++](0001.cpp), [Python](0001.py)|Easy|Array, Hash Table|
+|1|Two Sum|[C](0001.c), [C++](0001.cpp), [Python](0001.py)|Easy|Array, Hash Table|
 |2|Add Two Numbers|[Python](0002.py)|Medium|Linked List, Math|
 |3|Longest Substring Without Repeating Characters|[C++](0003.cpp), [Python](0003.py)|Medium|Hash Table, String, Sliding Window|
 |4|Median of Two Sorted Arrays|[Python](0004.py)|Hard|Array, Binary Search, Divide and Conquer|
@@ -17,8 +17,10 @@ Practice of LeetCode
 |26|Remove Duplicates from Sorted Array|[Python](0026.py)|Easy|Array, Two Pointers|
 |27|Remove Element|[Python](0027.py)|Easy|Array, Two Pointers|
 |28|Implement strStr()|[Python](0028.py)|Easy|Two Pointers, String|
+|33|Search in Rotated Sorted Array|[C++](0033.cpp)|Medium|Array, Binary Search|
 |35|Search Insert Position|[Python](0035.py)|Easy|Array, Binary Search|
 |38|Count and Say|[Python](0038.py)|Easy|String|
+|39|Combination Sum|[C++](0039.cpp)|Medium|Array, Backtracking|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
 |57|Insert Interval|[C++](0057.cpp)|Medium|Array|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
@@ -44,6 +46,7 @@ Practice of LeetCode
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
 |155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
+|200|Number of Islands|[C++](0200.cpp)|Medium|Array, Depth-First Search, Breadth-First Search, Union Find, Matrix|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |207|Course Schedule|[C++](0207.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
 |208|Implement Trie (Prefix Tree)|[C++](0208.cpp)|Medium|Hash Table, String, Design, Trie|
@@ -66,4 +69,5 @@ Practice of LeetCode
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
+|994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
