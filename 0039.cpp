@@ -9,7 +9,7 @@ public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
         vector<int> comb;
-        sort(candidates.begin(), candidates.end());
+        // sort(candidates.begin(), candidates.end());
         dfs(candidates, target, ans, comb, 0);
         return ans;
     }
@@ -21,7 +21,7 @@ public:
             if (candidates[i] <= target) {
                 comb.push_back(candidates[i]);
                 dfs(candidates, target-candidates[i], ans, comb, i);
-                comb.pop_back();
+                comb.pop_back();    // leave position for next candidate (back to previous)
             }
         }
     }

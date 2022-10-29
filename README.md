@@ -21,13 +21,16 @@ Practice of LeetCode
 |35|Search Insert Position|[Python](0035.py)|Easy|Array, Binary Search|
 |38|Count and Say|[Python](0038.py)|Easy|String|
 |39|Combination Sum|[C++](0039.cpp)|Medium|Array, Backtracking|
+|46|Permutations|[C++](0046.cpp)|Medium|Array, Backtracking|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
+|56|Merge Intervals|[C++](0056.cpp)|Medium|Array, Sorting|
 |57|Insert Interval|[C++](0057.cpp)|Medium|Array|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
 |66|Plus One|[Python](0066.py)|Easy|Array|
 |67|Add Binary|[C++](0069.cpp), [Python](0067.py)|Easy|Math, String, Bit Manipulation, Simulation|
 |69|Sqrt(x)|[Python](0069.py)|Easy|Math, Binary Search|
 |70|Climbing Stairs|[C++](0070.cpp), [Python](0070.py)|Easy|Math, Dynamic Programming, Memoization|
+|75|Sort Colors|[C++](0075.cpp)|Medium|Array, Two Pointers, Sorting|
 |78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
 |88|Merge Sorted Array|[Python](0088.py)|Easy|Array, Two Pointers|
@@ -54,6 +57,7 @@ Practice of LeetCode
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
+|236|Lowest Common Ancestor of a Binary Tree|[C++](0236.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |238|Product of Array Except Self|[C++](0238.cpp)|Medium|Array, Prefix Sum|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
@@ -66,8 +70,10 @@ Practice of LeetCode
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
+|721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
+|981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
