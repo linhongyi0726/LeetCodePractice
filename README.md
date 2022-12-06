@@ -66,9 +66,12 @@ Practice of LeetCode
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
+|412|Fizz Buzz|[C++](0412.cpp)|Easy|Math, String, Simulation|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
+|696|Count Binary Substrings|[C++](0696.cpp)|Easy|Two Pointers, String|
+|697|Degree of an Array|[C++](0697.cpp)|Easy|Array, Hash Table|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
@@ -76,4 +79,9 @@ Practice of LeetCode
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
+|1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
+|1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
+|1627|Richest Customer Wealth|[C++](1627.cpp)|Easy|Array, Matrix|
+|2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
+|2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
