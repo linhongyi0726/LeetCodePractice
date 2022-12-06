@@ -1,6 +1,11 @@
+# ProblemList
+1. **[Grind 75](#Grind75)**
+2. **[Grind 169](#Grind169)**
+3. **[Blind 75](#Blind75)**
+4. **[Neetcode 150](#Neetcode150)**
 
-## Grind 75
-ref: https://www.techinterviewhandbook.org/grind75
+## Grind75
+(Ref: https://www.techinterviewhandbook.org/grind75)
 
 ### Easy
 - [1. Two Sum](https://leetcode.com/problems/two-sum/)
@@ -83,7 +88,9 @@ ref: https://www.techinterviewhandbook.org/grind75
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
-## Grind 169 (Not included in Grind 75)
+## Grind169
+(Not included in [Grind 75](#Grind75))
+
 ### Easy
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
@@ -184,7 +191,9 @@ ref: https://www.techinterviewhandbook.org/grind75
 - [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 - [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
 
-## Blind 75 (Not included in Grind 75)
+## Blind75
+(Not included in [Grind 75](#Grind75))
+
 ### Medium
 - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -193,5 +202,5 @@ ref: https://www.techinterviewhandbook.org/grind75
 - [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
-## Neetcode 150
-ref: https://neetcode.io/practice
+## Neetcode150
+(Ref: https://neetcode.io/practice)
