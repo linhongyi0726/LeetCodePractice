@@ -1,3 +1,20 @@
+// Second time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while (fast && fast->next) {
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+        return slow;
+    }
+};
+
 // First time
 /*
     1. Brute-force

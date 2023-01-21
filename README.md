@@ -80,8 +80,9 @@ Practice of LeetCode
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
+|1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
-|1627|Richest Customer Wealth|[C++](1627.cpp)|Easy|Array, Matrix|
+|1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
