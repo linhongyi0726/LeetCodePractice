@@ -70,6 +70,7 @@ Practice of LeetCode
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
+|622|Design Circular Queue|[C++](0622.cpp)|Medium|Array, Linked List, Design, Queue|
 |696|Count Binary Substrings|[C++](0696.cpp)|Easy|Two Pointers, String|
 |697|Degree of an Array|[C++](0697.cpp)|Easy|Array, Hash Table|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
@@ -80,6 +81,7 @@ Practice of LeetCode
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
+|1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
 |1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|

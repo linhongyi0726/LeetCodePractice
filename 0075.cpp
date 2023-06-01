@@ -1,6 +1,26 @@
 // First time
 /*
+    one-pass algorithm -> use two pointers
+    l: "the largest index of 0" + 1
+    r: "the smallest index of 2" - 1
+    *Notice the for loop i <= r
+
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int l = 0, r = nums.size()-1;
+        for (int i=0; i<=r; ++i) {
+            if (nums[i]==0) swap(nums[i], nums[l++]);
+            else if (nums[i]==2) swap(nums[i--], nums[r--]);
+        }
+    }
+};
+
+/*
     Quick sort
+    T: O(nlogn)
 */
 class Solution {
 public:
@@ -11,14 +31,16 @@ public:
 
 /*
     Bubble sort
+    T: O(n^2)/S: O(1)
 */
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        for (int i = 1; i < nums.size(); ++i) {
-            for (int j = i; j > 0; --j) {
-                if (nums[j] >= nums[j-1]) break;
-                swap(nums[j], nums[j-1]);
+        int n = nums.size();
+        for (int i = 0; i < n-1; ++i) {
+            for (int j = 0; j < n-1-i; ++j) {
+                if (nums[j] > nums[j+1])
+                    swap(nums[j], nums[j+1]);
             }
         }
     }
