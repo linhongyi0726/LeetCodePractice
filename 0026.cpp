@@ -1,0 +1,18 @@
+// First time
+/*
+    two pointer
+    Because nums is sorted, just need to assign/swap the value which is different
+    *Note: l need to ++ first to make nums keep in the order
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int l=0;
+        for (int r=1; r<nums.size(); ++r) {
+            if (nums[l]!=nums[r]) nums[++l]=nums[r];
+            // if (nums[l]!=nums[r]) swap(nums[++l], nums[r]);
+        }
+        return l+1;
+    }
+};

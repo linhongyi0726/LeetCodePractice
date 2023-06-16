@@ -18,10 +18,8 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
             {
                 returnValue[0] = i;
                 returnValue[1] = j;
-                goto end;
             }
         }
     }
-    end:
     return returnValue;
 }

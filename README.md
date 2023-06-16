@@ -12,9 +12,11 @@ Practice of LeetCode
 |13|Roman to Integer|[Python](0013.py)|Easy|Math, String|
 |14|Longest Common Prefix|[Python](0014.py)|Easy|String|
 |15|3Sum|[C++](0015.cpp)|Medium|Array, Two Pointers, Sorting|
+|16|3Sum Closest|[C++](0016.cpp)|Medium|Array, Two Pointers, Sorting|
+|19|Remove Nth Node From End of List|[C++](0019.cpp)|Linked List, Two Pointers|
 |20|Valid Parentheses|[C++](0020.cpp), [Python](0020.py)|Easy|String, Stack|
 |21|Merge Two Sorted Lists|[C++](0021.cpp), [Python](0021.py)|Easy|Linked List|
-|26|Remove Duplicates from Sorted Array|[Python](0026.py)|Easy|Array, Two Pointers|
+|26|Remove Duplicates from Sorted Array|[C++](0026.cpp), [Python](0026.py)|Easy|Array, Two Pointers|
 |27|Remove Element|[Python](0027.py)|Easy|Array, Two Pointers|
 |28|Implement strStr()|[Python](0028.py)|Easy|Two Pointers, String|
 |33|Search in Rotated Sorted Array|[C++](0033.cpp)|Medium|Array, Binary Search|
@@ -45,9 +47,12 @@ Practice of LeetCode
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
 |133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
+|139|Word Break|[C++](0139.cpp)|Medium|Array, Hash Table, String, Dynamic Programming, Trie, Memoization|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
+|142|Linked List Cycle II|[C++](0142.cpp)|Medium|Hash Table, Linked List, Two Pointers|
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
 |155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
+|167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |200|Number of Islands|[C++](0200.cpp)|Medium|Array, Depth-First Search, Breadth-First Search, Union Find, Matrix|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
@@ -75,6 +80,7 @@ Practice of LeetCode
 |697|Degree of an Array|[C++](0697.cpp)|Easy|Array, Hash Table|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
+|724|Find Pivot Index|[C++](0724.cpp)|Easy|Array, Prefix Sum|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|

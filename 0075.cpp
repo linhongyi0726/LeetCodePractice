@@ -1,3 +1,21 @@
+// Second time
+/*
+    one-pass algorithm
+    Every element traversed by i is 1 or 0, so don't need i-- to go back
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int l=0, r=nums.size()-1;
+        for (int i=0; i<=r; ++i) {
+            if (nums[i]==0) swap(nums[i], nums[l++]);
+            else if (nums[i]==2) swap(nums[i--], nums[r--]);
+        }
+    }
+};
+
+
 // First time
 /*
     one-pass algorithm -> use two pointers
@@ -20,7 +38,7 @@ public:
 
 /*
     Quick sort
-    T: O(nlogn)
+    T: O(nlogn)/S: (1)
 */
 class Solution {
 public:
