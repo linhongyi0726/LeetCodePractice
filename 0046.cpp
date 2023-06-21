@@ -1,11 +1,55 @@
+// Second time
+/*
+    the backtracking swap is used to recover nums order to avoid affecting next recursion
+    [a,b,c] -> [a,c,b] -> [a,b,c] (for next recursion)
+    T: O(n*n!)/S: O(n*n!)
+*/
+class Solution {
+public:
+    void helper(vector<int>& nums, vector<vector<int>>& ans, int idx) {
+        if (idx==nums.size()) {
+            ans.push_back(nums);
+            return;
+        }
+        for (int i=idx; i<nums.size(); ++i) {
+            swap(nums[i], nums[idx]);
+            helper(nums, ans, idx+1);
+            swap(nums[i], nums[idx]);
+        }
+        return;
+    }
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> ans;
+        helper(nums, ans, 0);
+        return ans;
+    }
+};
+
+/*
+    Use build-in STL function to find next permutation
+*/
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> ans;
+        sort(nums.begin(),nums.end());
+        ans.push_back(nums);
+        while (next_permutation(nums.begin(),nums.end())) {
+            ans.push_back(nums);
+        }
+        return ans;
+    }
+};
+
+
 // First time
 /*
     Permutation
     Backtracking
     1. swap to each other
-        T: O(n!)/S: O(n!)
+        T: O(n*n!)/S: O(n!)
     2. insert number in every possible positions
-        T: O(n!)/S: O(n!)
+        T: O(n*n!)/S: O(n!)
 */
 class Solution {
 public:

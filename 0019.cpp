@@ -4,6 +4,10 @@
     let the interval between slow and fast ptr be n
     -> move slow and fast ptr together until the end of list,
     so slow->next postion is the Nth node from end
+
+    *Notice the edge case (e.g. remove head)
+    -> use r==null to judge or use another node "header" in front of head
+
     T: O(n)/S: O(n)
 */
 /**
@@ -48,7 +52,7 @@ public:
             r=r->next;
         }
         l->next=l->next->next;
-        // return l==header?header->next:head;
+        // return l==header?header->next:head; -> l==header means we need to remove head
         return header->next;
     }
 };

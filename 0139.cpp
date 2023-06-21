@@ -33,18 +33,18 @@ public:
 */
 class Solution {
 public:
-    bool help(string s, int idx, unordered_set<string>& wordset)
+    bool helper(string s, int idx, unordered_set<string>& wordset)
     {
         if (idx==s.length()) return true;
         for (int i=idx+1; i<=s.length(); ++i) {
             string sub = s.substr(idx, i-idx);
-            if (wordset.count(sub) && help(s, i, wordset)) return true;
+            if (wordset.count(sub) && helper(s, i, wordset)) return true;
         }
         return false;
     }
 
     bool wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> wordset(wordDict.begin(), wordDict.end());
-        return help(s,0,wordset);
+        return helper(s,0,wordset);
     }
 };

@@ -24,6 +24,7 @@ Practice of LeetCode
 |38|Count and Say|[Python](0038.py)|Easy|String|
 |39|Combination Sum|[C++](0039.cpp)|Medium|Array, Backtracking|
 |46|Permutations|[C++](0046.cpp)|Medium|Array, Backtracking|
+|49|Group Anagrams|[C++](0049.cpp)|Medium|Array, Hash Table, String, Sorting|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
 |56|Merge Intervals|[C++](0056.cpp)|Medium|Array, Sorting|
 |57|Insert Interval|[C++](0057.cpp)|Medium|Array|
@@ -69,6 +70,7 @@ Practice of LeetCode
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
 |322|Coin Change|[C++](0322.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search|
 |342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
+|347|Top K Frequent Elements|[C++](0347.cpp)|Medium|Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |412|Fizz Buzz|[C++](0412.cpp)|Easy|Math, String, Simulation|
@@ -88,9 +90,13 @@ Practice of LeetCode
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
+|1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
 |1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
+|2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
+|2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
+|2741|Special Permutations|[C++](2741.cpp)|Medium|Array, Dynamic Programming, Bit Manipulation, Bitmask|

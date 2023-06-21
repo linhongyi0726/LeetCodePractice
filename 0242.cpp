@@ -1,3 +1,14 @@
+// Third time
+/*
+    Use build-in STL function
+*/
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        return is_permutation(s.begin(), s.end(), t.begin()) && is_permutation(t.begin(), t.end(), s.begin());
+    }
+};
+
 // Second time
 /*
     Sort and compare
