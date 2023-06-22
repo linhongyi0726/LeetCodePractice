@@ -18,7 +18,7 @@ public:
                 if (i<word.length()) continue;
                 string sub=s.substr(i-word.length(), word.length());
                 if (sub==word && !dp[i]) dp[i]=dp[i-word.length()];
-                // if (sub==word) dp[i]=dp[i]|dp[i-word.length()];
+                // if (sub==word) dp[i]=dp[i]||dp[i-word.length()];
                 // if (wordset.count(sub) && !dp[i]) dp[i]=dp[i-word.length()];
             }
         }

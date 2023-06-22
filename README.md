@@ -74,6 +74,7 @@ Practice of LeetCode
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |412|Fizz Buzz|[C++](0412.cpp)|Easy|Math, String, Simulation|
+|416|Partition Equal Subset Sum|[C++](0416.cpp)|Medium|Array, Dynamic Programming|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
