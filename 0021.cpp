@@ -1,3 +1,29 @@
+// Second time
+/*
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        ListNode *ans = new ListNode();
+        ListNode *cur = ans;
+        while (list1 && list2) {
+            if (list1->val > list2->val) {
+                cur->next = list2;
+                cur = cur->next;
+                list2 = list2->next;
+            } else {
+                cur->next = list1;
+                cur = cur->next;
+                list1 = list1->next;
+            }
+        }
+        if (list1) cur->next = list1;
+        else cur->next = list2;
+        return ans->next;
+    }
+};
+
 // First time
 /*
     Iterative approach

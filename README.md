@@ -16,13 +16,15 @@ Practice of LeetCode
 |19|Remove Nth Node From End of List|[C++](0019.cpp)|Linked List, Two Pointers|
 |20|Valid Parentheses|[C++](0020.cpp), [Python](0020.py)|Easy|String, Stack|
 |21|Merge Two Sorted Lists|[C++](0021.cpp), [Python](0021.py)|Easy|Linked List|
+|23|Merge k Sorted Lists|[C++](0023.cpp)|Hard|Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort|
 |26|Remove Duplicates from Sorted Array|[C++](0026.cpp), [Python](0026.py)|Easy|Array, Two Pointers|
 |27|Remove Element|[Python](0027.py)|Easy|Array, Two Pointers|
 |28|Implement strStr()|[Python](0028.py)|Easy|Two Pointers, String|
 |33|Search in Rotated Sorted Array|[C++](0033.cpp)|Medium|Array, Binary Search|
-|35|Search Insert Position|[Python](0035.py)|Easy|Array, Binary Search|
+|35|Search Insert Position|[C++](0035.cpp), [Python](0035.py)|Easy|Array, Binary Search|
 |38|Count and Say|[Python](0038.py)|Easy|String|
 |39|Combination Sum|[C++](0039.cpp)|Medium|Array, Backtracking|
+|41|First Missing Positive|[C++](0041.cpp)|Hard|Array, Hash Table|
 |46|Permutations|[C++](0046.cpp)|Medium|Array, Backtracking|
 |49|Group Anagrams|[C++](0049.cpp)|Medium|Array, Hash Table, String, Sorting|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
@@ -30,13 +32,13 @@ Practice of LeetCode
 |57|Insert Interval|[C++](0057.cpp)|Medium|Array|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
 |66|Plus One|[Python](0066.py)|Easy|Array|
-|67|Add Binary|[C++](0069.cpp), [Python](0067.py)|Easy|Math, String, Bit Manipulation, Simulation|
-|69|Sqrt(x)|[Python](0069.py)|Easy|Math, Binary Search|
+|67|Add Binary|[C++](0067.cpp), [Python](0067.py)|Easy|Math, String, Bit Manipulation, Simulation|
+|69|Sqrt(x)|[C++](0069.cpp), [Python](0069.py)|Easy|Math, Binary Search|
 |70|Climbing Stairs|[C++](0070.cpp), [Python](0070.py)|Easy|Math, Dynamic Programming, Memoization|
 |75|Sort Colors|[C++](0075.cpp)|Medium|Array, Two Pointers, Sorting|
 |78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
-|88|Merge Sorted Array|[Python](0088.py)|Easy|Array, Two Pointers|
+|88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
 |98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
@@ -56,6 +58,7 @@ Practice of LeetCode
 |167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |200|Number of Islands|[C++](0200.cpp)|Medium|Array, Depth-First Search, Breadth-First Search, Union Find, Matrix|
+|204|Count Primes|[C++](0204.cpp)|Medium|Array, Math, Enumeration, Number Theory|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |207|Course Schedule|[C++](0207.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
 |208|Implement Trie (Prefix Tree)|[C++](0208.cpp)|Medium|Hash Table, String, Design, Trie|
@@ -101,3 +104,5 @@ Practice of LeetCode
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
 |2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
 |2741|Special Permutations|[C++](2741.cpp)|Medium|Array, Dynamic Programming, Bit Manipulation, Bitmask|
+|2760|Longest Even Odd Subarray With Threshold|[C++](2760.cpp)|Easy|
+|2761|Prime Pairs With Target Sum|[C++](2760.cpp)|Medium|
