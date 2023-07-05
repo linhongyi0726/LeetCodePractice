@@ -1,7 +1,7 @@
 // First time
 /*
     Sieve of Eratosthenes + two sum
-    T: O(nlog(logn))/ S: O(n)
+    T: O(nlog(logn))/S: O(n)
 */
 class Solution {
 public:

@@ -1,6 +1,6 @@
 // Second time
 /*
-    T: O(n)/ S: O(1)
+    T: O(n)/S: O(1)
 */
 class Solution {
 public:

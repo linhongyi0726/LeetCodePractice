@@ -2,7 +2,7 @@
 /*
     BFS by queue
     store all rotten oranges at queue first, then rot other fresh oranges by 4 directions
-    T: O(mn)/ S: O(mn)
+    T: O(mn)/S: O(mn)
 */
 
 class Solution {

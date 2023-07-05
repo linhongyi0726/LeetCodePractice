@@ -2,7 +2,7 @@
 /*
     Use Sieve of Eratosthenes to find prime
     If one number is prime, then set all its multiple non-prime
-    T: O(nlog(logn))/ S: O(n)
+    T: O(nlog(logn))/S: O(n)
 */
 class Solution {
 public:

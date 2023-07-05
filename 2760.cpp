@@ -1,7 +1,7 @@
 // First time
 /*
     Sliding window
-    T: O(n)/ S:O(1)
+    T: O(n)/S:O(1)
 */
 class Solution {
 public:
@@ -21,7 +21,6 @@ public:
     Brute Force
     T: O(n^2)/S: O(1)
 */
-
 class Solution {
 public:
     int longestAlternatingSubarray(vector<int>& nums, int threshold) {

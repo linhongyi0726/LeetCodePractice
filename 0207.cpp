@@ -6,7 +6,7 @@
     Use Adjacency List to store the graph, and one vector to store unvisited, visiting or visited
     (Or can use two vector "todo" and "done")
     Check is cyclic or not by DFS, BTW the topological ordering will be the reverse of the result
-    T: O(V+E)/ S: O(V+E)
+    T: O(V+E)/S: O(V+E)
 */
 class Solution {
 public:
@@ -40,7 +40,7 @@ public:
     If degree[i] == 0, means there aren't any edges connect to the node, so it can be a start point to BFS
     Choose one start point and remove all edges connected to it (subtract one of adjacent point's degree)
     If there is no cycle, all points will be pushed to the queue one time, here numCourses will become zero
-    T: O(V+E)/ S: O(V+E)
+    T: O(V+E)/S: O(V+E)
 */
 class Solution {
 public:

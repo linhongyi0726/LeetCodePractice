@@ -14,7 +14,7 @@
     '1' is the degree [1,2,2,1,2,1,1,1,1] -> len: 9
     '2' is the degree [2,2,1,2,1,1,1,1,2,2,2] -> len: 11
 
-    T: O(n)/ S:O(n)
+    T: O(n)/S:O(n)
 */
 
 class Solution {

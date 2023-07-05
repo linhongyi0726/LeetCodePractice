@@ -28,6 +28,7 @@ Practice of LeetCode
 |46|Permutations|[C++](0046.cpp)|Medium|Array, Backtracking|
 |49|Group Anagrams|[C++](0049.cpp)|Medium|Array, Hash Table, String, Sorting|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
+|55|Jump Game|[C++](0055.cpp)|Medium|Array, Dynamic Programming, Greedy|
 |56|Merge Intervals|[C++](0056.cpp)|Medium|Array, Sorting|
 |57|Insert Interval|[C++](0057.cpp)|Medium|Array|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
@@ -50,6 +51,7 @@ Practice of LeetCode
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
 |133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
+|135|Candy|[C++](0135.cpp)|Hard|Array, Greedy|
 |139|Word Break|[C++](0139.cpp)|Medium|Array, Hash Table, String, Dynamic Programming, Trie, Memoization|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |142|Linked List Cycle II|[C++](0142.cpp)|Medium|Hash Table, Linked List, Two Pointers|

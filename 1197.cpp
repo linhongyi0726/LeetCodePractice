@@ -2,7 +2,7 @@
 /*
     BFS
     similar with problem 994
-    T: O(mn)/ S: O(mn)
+    T: O(mn)/S: O(mn)
 */
 class Solution {
 public:

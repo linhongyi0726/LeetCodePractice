@@ -34,7 +34,7 @@ public:
 
 /*
     Recursion
-    T: O(h)/ S:O(h)
+    T: O(h)/S:O(h)
 */
 class Solution {
 public:
@@ -53,7 +53,7 @@ public:
 
 /*
     Iteration
-    T: O(h)/ S:O(1)
+    T: O(h)/S:O(1)
 */
 class Solution {
 public:
