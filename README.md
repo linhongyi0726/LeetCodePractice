@@ -18,7 +18,7 @@ Practice of LeetCode
 |21|Merge Two Sorted Lists|[C++](0021.cpp), [Python](0021.py)|Easy|Linked List|
 |23|Merge k Sorted Lists|[C++](0023.cpp)|Hard|Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort|
 |26|Remove Duplicates from Sorted Array|[C++](0026.cpp), [Python](0026.py)|Easy|Array, Two Pointers|
-|27|Remove Element|[Python](0027.py)|Easy|Array, Two Pointers|
+|27|Remove Element|[C++](0027.cpp), [Python](0027.py)|Easy|Array, Two Pointers|
 |28|Implement strStr()|[Python](0028.py)|Easy|Two Pointers, String|
 |33|Search in Rotated Sorted Array|[C++](0033.cpp)|Medium|Array, Binary Search|
 |35|Search Insert Position|[C++](0035.cpp), [Python](0035.py)|Easy|Array, Binary Search|
@@ -59,13 +59,16 @@ Practice of LeetCode
 |155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
 |167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
+|191|Number of 1 Bits|[C++](0191.cpp)|Easy|Divide and Conquer, Bit Manipulation|
 |200|Number of Islands|[C++](0200.cpp)|Medium|Array, Depth-First Search, Breadth-First Search, Union Find, Matrix|
 |204|Count Primes|[C++](0204.cpp)|Medium|Array, Math, Enumeration, Number Theory|
 |206|Reverse Linked List|[C++](0206.cpp)|Easy|Linked List, Recursion|
 |207|Course Schedule|[C++](0207.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
 |208|Implement Trie (Prefix Tree)|[C++](0208.cpp)|Medium|Hash Table, String, Design, Trie|
+|209|Minimum Size Subarray Sum|[C++](0209.cpp)|Medium|Array, Binary Search, Sliding Window, Prefix Sum|
 |217|Contains Duplicate|[C++](0217.cpp)|Easy|Array, Hash Table, Sorting|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
+|231|Power of Two|[C++](0231.cpp)|Easy|Math, Bit Manipulation, Recursion|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
 |236|Lowest Common Ancestor of a Binary Tree|[C++](0236.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
@@ -73,8 +76,11 @@ Practice of LeetCode
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
+|283|Move Zeroes|[C++](0283.cpp)|Easy|Array, Two Pointers|
 |322|Coin Change|[C++](0322.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search|
-|342|Power of Four|[Python](0342.py)|Easy|Bit Manipulation|
+|326|Power of Three|[C++](0326.cpp)|Easy|Math, Recursion|
+|338|Counting Bits|[C++](0338.cpp)|Easy|Dynamic Programming, Bit Manipulation|
+|342|Power of Four|[C++](0342.cpp), [Python](0342.py)|Easy|Bit Manipulation|
 |347|Top K Frequent Elements|[C++](0347.cpp)|Medium|Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
@@ -90,8 +96,10 @@ Practice of LeetCode
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
 |724|Find Pivot Index|[C++](0724.cpp)|Easy|Array, Prefix Sum|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
+|844|Backspace String Compare|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
+|977|Squares of a Sorted Array|[C++](0977.cpp)|Easy|Array, Two Pointers, Sorting|
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
@@ -106,5 +114,8 @@ Practice of LeetCode
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
 |2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
 |2741|Special Permutations|[C++](2741.cpp)|Medium|Array, Dynamic Programming, Bit Manipulation, Bitmask|
-|2760|Longest Even Odd Subarray With Threshold|[C++](2760.cpp)|Easy|
-|2761|Prime Pairs With Target Sum|[C++](2760.cpp)|Medium|
+|2760|Longest Even Odd Subarray With Threshold|[C++](2760.cpp)|Easy|Array, Sliding Window|
+|2761|Prime Pairs With Target Sum|[C++](2761.cpp)|Medium|Array, Math, Enumeration, Number Theory|
+|2769|Find the Maximum Achievable Number|[C++](2769.cpp)|Easy|Math|
+|2770|Maximum Number of Jumps to Reach the Last Index|[C++](2770.cpp)|Medium|Array, Dynamic Programming|
+|2771|Longest Non-decreasing Subarray From Two Arrays|[C++](2771.cpp)|Medium|Array, Dynamic Programming|
