@@ -96,7 +96,7 @@ Practice of LeetCode
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
 |724|Find Pivot Index|[C++](0724.cpp)|Easy|Array, Prefix Sum|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
-|844|Backspace String Compare|Easy|Two Pointers, String, Stack, Simulation|
+|844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
 |977|Squares of a Sorted Array|[C++](0977.cpp)|Easy|Array, Two Pointers, Sorting|
