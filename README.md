@@ -21,6 +21,7 @@ Practice of LeetCode
 |27|Remove Element|[C++](0027.cpp), [Python](0027.py)|Easy|Array, Two Pointers|
 |28|Implement strStr()|[Python](0028.py)|Easy|Two Pointers, String|
 |33|Search in Rotated Sorted Array|[C++](0033.cpp)|Medium|Array, Binary Search|
+|34|Find First and Last Position of Element in Sorted Array|[C++](0034.cpp)|Medium|Array, Binary Search|
 |35|Search Insert Position|[C++](0035.cpp), [Python](0035.py)|Easy|Array, Binary Search|
 |38|Count and Say|[Python](0038.py)|Easy|String|
 |39|Combination Sum|[C++](0039.cpp)|Medium|Array, Backtracking|
@@ -28,17 +29,21 @@ Practice of LeetCode
 |46|Permutations|[C++](0046.cpp)|Medium|Array, Backtracking|
 |49|Group Anagrams|[C++](0049.cpp)|Medium|Array, Hash Table, String, Sorting|
 |53|Maximum Subarray|[C++](0053.cpp), [Python](0053.py)|Medium|Array, Divide and Conquer, Dynamic Programming|
+|54|Spiral Matrix|[C++](0054.cpp)|Medium|Array, Matrix, Simulation|
 |55|Jump Game|[C++](0055.cpp)|Medium|Array, Dynamic Programming, Greedy|
 |56|Merge Intervals|[C++](0056.cpp)|Medium|Array, Sorting|
 |57|Insert Interval|[C++](0057.cpp)|Medium|Array|
 |58|Length of Last Word|[Python](0058.py)|Easy|String|
+|59|Spiral Matrix II|[C++](0059.cpp)|Medium|Array, Matrix, Simulation|
 |66|Plus One|[Python](0066.py)|Easy|Array|
 |67|Add Binary|[C++](0067.cpp), [Python](0067.py)|Easy|Math, String, Bit Manipulation, Simulation|
 |69|Sqrt(x)|[C++](0069.cpp), [Python](0069.py)|Easy|Math, Binary Search|
 |70|Climbing Stairs|[C++](0070.cpp), [Python](0070.py)|Easy|Math, Dynamic Programming, Memoization|
 |75|Sort Colors|[C++](0075.cpp)|Medium|Array, Two Pointers, Sorting|
+|76|Minimum Window Substring|[C++](0076.cpp)|Hard|Hash Table, String, Sliding Window|
 |78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
+|86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
 |98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
@@ -82,6 +87,8 @@ Practice of LeetCode
 |338|Counting Bits|[C++](0338.cpp)|Easy|Dynamic Programming, Bit Manipulation|
 |342|Power of Four|[C++](0342.cpp), [Python](0342.py)|Easy|Bit Manipulation|
 |347|Top K Frequent Elements|[C++](0347.cpp)|Medium|Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect|
+|349|Intersection of Two Arrays|[C++](0349.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
+|367|Valid Perfect Square|[C++](0367.cpp)|Easy|Math, Binary Search|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |412|Fizz Buzz|[C++](0412.cpp)|Easy|Math, String, Simulation|
@@ -98,6 +105,7 @@ Practice of LeetCode
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
+|904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
 |977|Squares of a Sorted Array|[C++](0977.cpp)|Easy|Array, Two Pointers, Sorting|
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
@@ -119,3 +127,6 @@ Practice of LeetCode
 |2769|Find the Maximum Achievable Number|[C++](2769.cpp)|Easy|Math|
 |2770|Maximum Number of Jumps to Reach the Last Index|[C++](2770.cpp)|Medium|Array, Dynamic Programming|
 |2771|Longest Non-decreasing Subarray From Two Arrays|[C++](2771.cpp)|Medium|Array, Dynamic Programming|
+|2778|Sum of Squares of Special Elements|[C++](2778.cpp)|Easy|Array, Simulation|
+|2779|Maximum Beauty of an Array After Applying Operation|[C++](2779.cpp)|Medium|Array, Binary Search, Sliding Window, Sorting|
+|2780|Minimum Index of a Valid Split|[C++](2780.cpp)|Medium|Array, Hash Table, Sorting|
