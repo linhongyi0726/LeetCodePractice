@@ -13,7 +13,7 @@ Practice of LeetCode
 |14|Longest Common Prefix|[Python](0014.py)|Easy|String|
 |15|3Sum|[C++](0015.cpp)|Medium|Array, Two Pointers, Sorting|
 |16|3Sum Closest|[C++](0016.cpp)|Medium|Array, Two Pointers, Sorting|
-|19|Remove Nth Node From End of List|[C++](0019.cpp)|Linked List, Two Pointers|
+|19|Remove Nth Node From End of List|[C++](0019.cpp)|Medium|Linked List, Two Pointers|
 |20|Valid Parentheses|[C++](0020.cpp), [Python](0020.py)|Easy|String, Stack|
 |21|Merge Two Sorted Lists|[C++](0021.cpp), [Python](0021.py)|Easy|Linked List|
 |23|Merge k Sorted Lists|[C++](0023.cpp)|Hard|Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort|
