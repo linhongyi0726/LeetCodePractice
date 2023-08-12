@@ -1,3 +1,18 @@
+// Second time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int l=0, r=0;
+        for (; r<nums.size(); ++r) {
+            if (nums[r]!=0) swap(nums[l++], nums[r]);
+        }
+    }
+};
+
+
 // First time
 /*
     we can't only use nums[l++]=nums[r], because the zero need to keep in the behind

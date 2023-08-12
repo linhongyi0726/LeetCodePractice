@@ -3,16 +3,6 @@
     Divide and Conquer -> reduce to merge two lists
     T: O(nlog⁡k)/S: O(1)
 */
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
@@ -102,7 +92,7 @@ public:
             pq.pop();
             cur = cur->next;
         }
-        cur->next=nullptr;  //***NOTICE to set the end of linked list to avoid to create a loop
+        cur->next=nullptr;  // ***NOTICE to set the end of linked list to avoid to create a loop
         return header->next;
     }
 };
