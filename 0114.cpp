@@ -1,7 +1,8 @@
 // First time
 /*
-    Recursion
-    T: O(n)/S: O(1)
+    Recursion (Top-down)
+    Use LRN postorder traversal
+    T: O(n)/S: O(n)
 */
 class Solution {
 public:
@@ -17,6 +18,12 @@ public:
     }
 };
 
+/*
+    Recursion (Bottom-up)
+    Because its bottom-up solution, so need to reverse the order (NLR->RLN)
+    And use prev node to record the latest arranged list from bottom
+    T: O(n)/S: O(n)
+*/
 class Solution {
 public:
     TreeNode *prev=nullptr;

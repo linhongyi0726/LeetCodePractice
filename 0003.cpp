@@ -1,3 +1,23 @@
+// Third time
+/*
+    Sliding window + hash map/hash set
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        unordered_map<char, int> mp;
+        int ans = 0, l = 0, r = 0;
+        for (; r<s.length(); ++r) {
+            if (mp.count(s[r]) && mp[s[r]]+1 > l) l=mp[s[r]]+1;
+            mp[s[r]]=r;
+            ans=max(ans, r-l+1);
+        }
+        return ans;
+    }
+};
+
+
 // Second time
 /*
     Sliding window + hash set

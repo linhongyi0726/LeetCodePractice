@@ -4,7 +4,7 @@ Practice of LeetCode
 |**No.**|**Title**|**Solution**|**Difficulty**|**Related Topics**|
 |-------|---------|------------|--------------|------------------|
 |1|Two Sum|[C](0001.c), [C++](0001.cpp), [Python](0001.py)|Easy|Array, Hash Table|
-|2|Add Two Numbers|[Python](0002.py)|Medium|Linked List, Math|
+|2|Add Two Numbers|[C++](0002.cpp), [Python](0002.py)|Medium|Linked List, Math|
 |3|Longest Substring Without Repeating Characters|[C++](0003.cpp), [Python](0003.py)|Medium|Hash Table, String, Sliding Window|
 |4|Median of Two Sorted Arrays|[Python](0004.py)|Hard|Array, Binary Search, Divide and Conquer|
 |7|Reverse Integer|[Python](0007.py)|Easy|Math|
@@ -64,6 +64,7 @@ Practice of LeetCode
 |142|Linked List Cycle II|[C++](0142.cpp)|Medium|Hash Table, Linked List, Two Pointers|
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
 |155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
+|160|Intersection of Two Linked Lists|[C++](0160.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |191|Number of 1 Bits|[C++](0191.cpp)|Easy|Divide and Conquer, Bit Manipulation|
@@ -78,6 +79,7 @@ Practice of LeetCode
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |231|Power of Two|[C++](0231.cpp)|Easy|Math, Bit Manipulation, Recursion|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
+|234|Palindrome Linked List|[C++](0234.cpp)|Easy|Linked List, Two Pointers, Stack, Recursion|
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
 |236|Lowest Common Ancestor of a Binary Tree|[C++](0236.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |238|Product of Array Except Self|[C++](0238.cpp)|Medium|Array, Prefix Sum|
@@ -87,16 +89,21 @@ Practice of LeetCode
 |283|Move Zeroes|[C++](0283.cpp)|Easy|Array, Two Pointers|
 |322|Coin Change|[C++](0322.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search|
 |326|Power of Three|[C++](0326.cpp)|Easy|Math, Recursion|
+|328|Odd Even Linked List[C++](0328.cpp)|Medium|Linked List|
 |338|Counting Bits|[C++](0338.cpp)|Easy|Dynamic Programming, Bit Manipulation|
+|340|Longest Substring with At Most K Distinct Characters|[C++](0340.cpp)|Medium|Hash Table, String, Sliding Window|
 |342|Power of Four|[C++](0342.cpp), [Python](0342.py)|Easy|Bit Manipulation|
 |347|Top K Frequent Elements|[C++](0347.cpp)|Medium|Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect|
 |349|Intersection of Two Arrays|[C++](0349.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
 |367|Valid Perfect Square|[C++](0367.cpp)|Easy|Math, Binary Search|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
+|395|Longest Substring with At Least K Repeating Characters|[C++](0395.cpp)|Medium|Hash Table, String, Divide and Conquer, Sliding Window|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |412|Fizz Buzz|[C++](0412.cpp)|Easy|Math, String, Simulation|
 |414|Third Maximum Number|[C++](0414.cpp)|Easy|Array, Sorting|
 |416|Partition Equal Subset Sum|[C++](0416.cpp)|Medium|Array, Dynamic Programming|
+|424|Longest Repeating Character Replacement|[C++](0424.cpp)|Medium|Hash Table, String, Sliding Window|
+|430|Flatten a Multilevel Doubly Linked List|[C++](0430.cpp)|Medium|Linked List, Depth-First Search, Doubly-Linked List|
 |448|Find All Numbers Disappeared in an Array|[C++](0448.cpp)|Easy|Array, Hash Table|
 |485|Max Consecutive Ones|[C++](0485.cpp)|Easy|Array|
 |487|Max Consecutive Ones II[C++](0487.cpp)|Medium|Array, Dynamic Programming, Sliding Window|
@@ -107,11 +114,13 @@ Practice of LeetCode
 |696|Count Binary Substrings|[C++](0696.cpp)|Easy|Two Pointers, String|
 |697|Degree of an Array|[C++](0697.cpp)|Easy|Array, Hash Table|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
+|707|Design Linked List|[C++](0707.cpp)|Medium|Linked List, Design|
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
 |724|Find Pivot Index|[C++](0724.cpp)|Easy|Array, Prefix Sum|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
+|862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
 |904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
 |941|Valid Mountain Array|[C++](0941.cpp)|Easy|Array|
@@ -130,6 +139,7 @@ Practice of LeetCode
 |1346|Check If N and Its Double Exist|[C++](1346.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
+|2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
@@ -144,5 +154,13 @@ Practice of LeetCode
 |2778|Sum of Squares of Special Elements|[C++](2778.cpp)|Easy|Array, Simulation|
 |2779|Maximum Beauty of an Array After Applying Operation|[C++](2779.cpp)|Medium|Array, Binary Search, Sliding Window, Sorting|
 |2780|Minimum Index of a Valid Split|[C++](2780.cpp)|Medium|Array, Hash Table, Sorting|
+|2808|Minimum Seconds to Equalize a Circular Array|[C++](2808.cpp)|Medium|Array, Hash Table, Greedy|
 |2810|Faulty Keyboard|[C++](2810.cpp)|Easy|String, Simulation|
 |2811|Check if it is Possible to Split Array|[C++](2811.cpp)|Medium|Array, Dynamic Programming, Greedy|
+|2815|Max Pair Sum in an Array|[C++](2815.cpp)|Easy|Array, Hash Table|
+|2816|Double a Number Represented as a Linked List|[C++](2816.cpp)|Medium|Linked List, Math, Stack|
+|2817|Minimum Absolute Difference Between Elements With Constraint|[C++](2817.cpp)|Medium|Array, Binary Search, Ordered Set|
+|2828|Check if a String Is an Acronym of Words|[C++](2828.cpp)|Easy|Array, String|
+|2829|Determine the Minimum Sum of a k-avoiding Array|[C++](2829.cpp)|Medium|Math, Greedy|
+|2830|Maximize the Profit as the Salesman|[C++](2830.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
+|2831|Find the Longest Equal Subarray|[C++](2831.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window|

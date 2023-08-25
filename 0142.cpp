@@ -1,3 +1,39 @@
+// Second time
+/*
+                     where l==r
+         a         b    v
+    O -> O -> O -> O -> O -
+              ^           |
+              |-----------|
+                    c
+    l (slow): a+b
+    r (fast): a+b+c+b = a+2b+c
+    2(a+b) = a+2b+c -> a=c
+
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode *detectCycle(ListNode *head) {
+        ListNode *l=head, *r=head;
+        ListNode *ans=new ListNode();
+        while (r && r->next) {
+            l=l->next;
+            r=r->next->next;
+            if (l==r) {
+                ans=head;
+                while (ans!=r) {
+                    ans=ans->next;
+                    r=r->next;
+                }
+                return ans;
+            }
+        }
+        return NULL;
+    }
+};
+
+
 // First time
 /*
     Use set to check duplicated node
@@ -74,14 +110,6 @@ public:
     }
 };
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {

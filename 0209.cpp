@@ -1,3 +1,43 @@
+// Second time
+/*
+    If the num can be negative -> Problem 862
+    ------
+    2 ptr
+    T: O(n)/S: O(1)
+    ------
+    prefix sum + binary search
+    T: O(nlogn)/S: O(1)
+*/
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int sum=0, ans=INT_MAX, l=0, r=0;
+        for (; r<nums.size(); ++r) {
+            sum+=nums[r];
+            while (sum >= target) {
+                ans=min(ans, r-l+1);
+                sum-=nums[l++];
+            }
+        }
+        return ans==INT_MAX?0:ans;
+    }
+};
+
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) {
+        nums.insert(nums.begin(), 0);
+        partial_sum(nums.begin()+1, nums.end(), nums.begin()+1);
+        int ans=INT_MAX, n=nums.size();
+        for (int l=0; l<n; ++l) {
+            int r=lower_bound(nums.begin()+l, nums.end(), nums[l]+target)-nums.begin();
+            if (r!=n) ans=min(ans, r-l);
+        }
+        return ans==INT_MAX?0:ans;
+    }
+};
+
+
 // First time
 /*
     Sliding windows

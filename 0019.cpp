@@ -1,3 +1,30 @@
+// Second time
+/*
+    2 ptr
+*/
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode *dummy=new ListNode();
+        dummy->next=head;
+        ListNode *l=dummy, *r=dummy;
+        for (int i=0; i<n; ++i) r=r->next;
+        // Because of dummy head, r will not be nullptr,
+        // here only need to check r->next
+        while (r->next) {
+            l=l->next;
+            r=r->next;
+        }
+        ListNode *tmp=l->next;
+        l->next=l->next->next;
+        delete tmp;
+        head=dummy->next;
+        delete dummy;
+        return head;
+    }
+};
+
+
 // First time
 /*
     two pointer
@@ -8,7 +35,7 @@
     *Notice the edge case (e.g. remove head)
     -> use r==null to judge or use another node "header" in front of head
 
-    T: O(n)/S: O(n)
+    T: O(n)/S: O(1)
 */
 class Solution {
 public:

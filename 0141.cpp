@@ -1,3 +1,17 @@
+// Third time
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        ListNode *l=head, *r=head;
+        while (r && r->next) {
+            l=l->next;
+            r=r->next->next;
+            if (l==r) return true;
+        }
+        return false;
+    }
+};
+
 // Second time
 /*
     Similar and advanced problem: 142

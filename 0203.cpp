@@ -1,3 +1,31 @@
+// Second time
+// Second time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode *dummy=new ListNode();
+        ListNode *cur=dummy;
+        while (head) {
+            if (head->val != val) {
+                cur->next=head;
+                head=head->next;
+                cur=cur->next;
+            } else {
+                ListNode *tmp=head;
+                head=head->next;
+                delete tmp;
+            }
+        }
+        cur->next=nullptr;
+        cur=dummy->next;
+        delete dummy;
+        return cur;
+    }
+};
+
 // First time
 /*
     See current node is val or not, and use another list "tail" to link non-val node
