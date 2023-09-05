@@ -106,10 +106,12 @@ Practice of LeetCode
 |430|Flatten a Multilevel Doubly Linked List|[C++](0430.cpp)|Medium|Linked List, Depth-First Search, Doubly-Linked List|
 |448|Find All Numbers Disappeared in an Array|[C++](0448.cpp)|Easy|Array, Hash Table|
 |485|Max Consecutive Ones|[C++](0485.cpp)|Easy|Array|
-|487|Max Consecutive Ones II[C++](0487.cpp)|Medium|Array, Dynamic Programming, Sliding Window|
+|487|Max Consecutive Ones II|[C++](0487.cpp)|Medium|Array, Dynamic Programming, Sliding Window|
+|509|Fibonacci Number|[C++](0509.cpp)|Easy|Math, Dynamic Programming, Recursion, Memoization|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
+|560|Subarray Sum Equals K|[C++](0560.cpp)|Medium|Array, Hash Table, Prefix Sum|
 |622|Design Circular Queue|[C++](0622.cpp)|Medium|Array, Linked List, Design, Queue|
 |696|Count Binary Substrings|[C++](0696.cpp)|Easy|Two Pointers, String|
 |697|Degree of an Array|[C++](0697.cpp)|Easy|Array, Hash Table|
@@ -125,6 +127,7 @@ Practice of LeetCode
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
 |941|Valid Mountain Array|[C++](0941.cpp)|Easy|Array|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
+|974|Subarray Sums Divisible by K|[C++](0974.cpp)|Medium|Array, Hash Table, Prefix Sum|
 |977|Squares of a Sorted Array|[C++](0977.cpp)|Easy|Array, Two Pointers, Sorting|
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
@@ -133,12 +136,14 @@ Practice of LeetCode
 |1089|Duplicate Zeros|[C++](1089.cpp)|Easy|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
 |1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
+|1235|Maximum Profit in Job Scheduling|[C++](1235.cpp)|Hard|Array, Binary Search, Dynamic Programming, Sorting|
 |1295|Find Numbers with Even Number of Digits|[C++](1295.cpp)|Easy|Array|
 |1299|Replace Elements with Greatest Element on Right Side|[C++](1299.cpp)|Easy|Array|
 |1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1346|Check If N and Its Double Exist|[C++](1346.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
+|2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
@@ -164,3 +169,9 @@ Practice of LeetCode
 |2829|Determine the Minimum Sum of a k-avoiding Array|[C++](2829.cpp)|Medium|Math, Greedy|
 |2830|Maximize the Profit as the Salesman|[C++](2830.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
 |2831|Find the Longest Equal Subarray|[C++](2831.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window|
+|2833|Furthest Point From Origin|[C++](2833.cpp)|Easy|Array, Counting|
+|2834|Find the Minimum Possible Sum of a Beautiful Array|[C++](2834.cpp)|Medium|Math, Greedy|
+|2835|Minimum Operations to Form Subsequence With Target Sum|[C++](2835.cpp)|Hard|Array, Greedy, Bit Manipulation|
+|2843|Count Symmetric Integers|[C++](2843.cpp)|Easy|
+|2844|Minimum Operations to Make a Special Number|[C++](2844.cpp)|Medium|
+|2845|Count of Interesting Subarrays|[C++](2845.cpp)|Medium|

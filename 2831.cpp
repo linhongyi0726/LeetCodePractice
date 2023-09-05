@@ -7,9 +7,9 @@
 
     Our windows size will not be decreased, and will continually move until we find another larger "ans"
     -> means find larger frequency of elements
-    [1, 3, 2, 3, 1, 3, 2]
+    [1, 3, 2, 3, 1, 3, 2], k=3
      ^                 ^
-     l                 r -> r-l+1-3=4 > 3
+     l                 r -> max freq number for now: 3, r-l+1-3=4 -> the elements needed to delete > 3
         l -> need to move l, and --cnt[1]
     T: O(n)/S: O(n)
 */
