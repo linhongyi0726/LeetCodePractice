@@ -46,6 +46,7 @@ Practice of LeetCode
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
 |86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
+|92|Reverse Linked List II[C++](0092.cpp)|Medium|Linked List|
 |98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
@@ -55,10 +56,13 @@ Practice of LeetCode
 |108|Convert Sorted Array to Binary Search Tree|[Python](0108.py)|Easy|Tree, Depth-first Search|
 |110|Balanced Binary Tree|[C++](0110.cpp), [Python](0110.py)|Easy|Tree, Depth-first Search, Binary tree|
 |114|Flatten Binary Tree to Linked List|[C++](0114.cpp)|Medium|Linked List, Stack, Tree, Depth-First Search, Binary Tree|
+|118|Pascal's Triangle|[C++](0118.cpp)|Easy|Array, Dynamic Programming|
+|119|Pascal's Triangle II|[C++](0119.cpp)|Easy|Array, Dynamic Programming|
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
 |133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
 |135|Candy|[C++](0135.cpp)|Hard|Array, Greedy|
+|138|Copy List with Random Pointer|[C++](0138.cpp)|Medium|Hash Table, Linked List|
 |139|Word Break|[C++](0139.cpp)|Medium|Array, Hash Table, String, Dynamic Programming, Trie, Memoization|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |142|Linked List Cycle II|[C++](0142.cpp)|Medium|Hash Table, Linked List, Two Pointers|
@@ -119,6 +123,7 @@ Practice of LeetCode
 |707|Design Linked List|[C++](0707.cpp)|Medium|Linked List, Design|
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
 |724|Find Pivot Index|[C++](0724.cpp)|Easy|Array, Prefix Sum|
+|725|Split Linked List in Parts|[C++](0725.cpp)|Medium|Linked List|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
@@ -141,6 +146,7 @@ Practice of LeetCode
 |1299|Replace Elements with Greatest Element on Right Side|[C++](1299.cpp)|Easy|Array|
 |1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1346|Check If N and Its Double Exist|[C++](1346.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
+|1470|Shuffle the Array|[C++](1470.cpp)|Easy|Array|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|

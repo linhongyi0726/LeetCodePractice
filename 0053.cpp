@@ -20,6 +20,7 @@ public:
 
 /*
     Optimize -> greedy: Kadane's Algorithm
+    Use local max (cur) and global max (ans)
     T: O(n)/S: O(1)
 */
 class Solution {
@@ -44,7 +45,7 @@ public:
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int minsum = nums[0];
+        int minsum = nums[0];   // prefix min sum
         int maxsum = nums[0];
         int sum = nums[0];
         for (int i = 1; i < nums.size(); ++i) {

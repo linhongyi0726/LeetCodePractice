@@ -12,6 +12,18 @@ public:
     }
 };
 
+// Brute-force
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        for (int i = 0; i < 20000; ++i) {
+            if (!head) return false;
+            head = head->next;
+        }
+        return true;
+    }
+};
+
 // Second time
 /*
     Similar and advanced problem: 142
@@ -54,14 +66,6 @@ public:
     T: O(n)/S: O(1)
     * Notice the while condition to avoid null pointer
 */
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
