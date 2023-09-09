@@ -3,11 +3,19 @@
     DP (Bottom-up)
     dp[i] denote how many combinations which sum is i
     (dp[0]=1 means there must be a empty combination which sum is 0)
-    *Notice to use unsigned to avoid strangly overflow problem...
+
+    "The test cases are generated so that the answer can fit in a 32-bit integer."
+    *Notice to use unsigned to avoid overflow,
+    (unsigned int overflow will be 0, but int overflow is undefined behavior)
+    Or use another long long type variable to calculate then assign to dp[i],
+    In this problem, long long type + int type will not overflow LLONG_MAX
+
     T: O(nm)/S: O(m)
     -----
     Memoization + DP (Top-down)
-    Calculate the dp[i] from target to 0
+    Calculate the dp[i] from target to 0, this approach also can avoid overflow
+    Because we only calculate used dp[i] instaed of creating whole dp vector.
+    (There may are some unused dp[i] but overflow)
     T: O(nm)/S: O(m)
     -----
     Follow up:
@@ -31,7 +39,7 @@ public:
     }
 };
 
-// Or use another variable to calculate to avoid the strangly overflow
+// use another long long variable to calculate to avoid overflow
 class Solution {
 public:
     int combinationSum4(vector<int>& nums, int target) {
