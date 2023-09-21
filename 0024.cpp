@@ -1,3 +1,26 @@
+// Second time
+/*
+    dummy/cur -> 1 -> 2 -> ...
+    We only need to do swap when there are cur->next and cur->next->next
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        ListNode *dummy = new ListNode();
+        dummy->next = head;
+        ListNode *cur = dummy;
+        while (cur->next && cur->next->next) {
+            ListNode *tmp = cur->next;
+            cur->next = cur->next->next;
+            tmp->next = cur->next->next;
+            cur->next->next = tmp;
+            cur = cur->next->next;
+        }
+        return dummy->next;
+    }
+};
+
 // First time
 /*
     Iteration

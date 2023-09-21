@@ -1,3 +1,88 @@
+// Second time
+/*
+    Find the peak and valley
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int candy(vector<int>& ratings) {
+        int ret = 1, up = 0, down = 0, peak = 0;
+        for (int i = 1; i < ratings.size(); ++i) {
+            if (ratings[i] > ratings[i - 1]) {
+                down = 0;
+                up++;
+                peak = up;
+                ret += up + 1;  // Add original one
+            } else if (ratings[i] < ratings[i - 1]) {
+                up = 0;
+                down++;
+                ret += down;
+                if (down > peak)
+                    ret++;
+            } else {
+                up = 0;
+                down = 0;
+                peak = 0;
+                ret++;
+            }
+        }
+        return ret;
+    }
+};
+
+class Solution {
+public:
+    int candy(vector<int>& ratings) {
+        int n = ratings.size(), i = 1, peak = 0, valley = 0, ret = n;
+        while (i < n) {
+            peak = 0;
+            while (i < n && ratings[i] > ratings[i - 1]) {
+                peak++;
+                ret += peak;
+                i++;
+            }
+            valley = 0;
+            while (i < n && ratings[i] < ratings[i - 1]) {
+                valley++;
+                ret += valley;
+                i++;
+            }
+            while (i < n && ratings[i] == ratings[i - 1]) {
+                i++;
+            }
+            // The peak have been count twice, only remain the maximum
+            ret -= min(peak, valley);
+        }
+        return ret;
+    }
+};
+
+/*
+    Calculate from two ends and another space 
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    int candy(vector<int>& ratings) {
+        int n = ratings.size();
+        vector<int> ret(n, 1);
+        // Compare to left element
+        for (int i = 1; i < n; ++i) {
+            if (ratings[i] > ratings[i - 1]) {
+                ret[i] = ret[i - 1] + 1;
+            }
+        }
+        // Compare to right element, notice to check the numbers of candies as well
+        for (int i = n - 2; i >= 0; --i) {
+            if (ratings[i] > ratings[i + 1] && ret[i] <= ret[i + 1]) {
+                ret[i] = ret[i + 1] + 1;
+            }
+        }
+        return accumulate(ret.begin(), ret.end(), 0);
+    }
+};
+
+
 // First time
 /*
     Treat it like peak and valley
@@ -23,7 +108,7 @@ public:
             } else if (ratings[i] < ratings[i-1]) {
                 up = 0;
                 down++;
-                if (down > peak) {
+                if (down > peak) {  //Check we need to add one on the peek or not
                     ans += (down + 1);
                 } else {
                     ans += down;
