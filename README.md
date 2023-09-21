@@ -47,7 +47,7 @@ Practice of LeetCode
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
 |86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
-|92|Reverse Linked List II[C++](0092.cpp)|Medium|Linked List|
+|92|Reverse Linked List II|[C++](0092.cpp)|Medium|Linked List|
 |98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
