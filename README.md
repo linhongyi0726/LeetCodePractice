@@ -104,6 +104,7 @@ Practice of LeetCode
 |367|Valid Perfect Square|[C++](0367.cpp)|Easy|Math, Binary Search|
 |377|Combination Sum IV|[C++](0377.cpp)|Medium|Array, Dynamic Programming|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
+|392|Is Subsequence|[C++](0392.cpp)|Easy|Two Pointers, String, Dynamic Programming|
 |395|Longest Substring with At Least K Repeating Characters|[C++](0395.cpp)|Medium|Hash Table, String, Divide and Conquer, Sliding Window|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
 |412|Fizz Buzz|[C++](0412.cpp)|Easy|Math, String, Simulation|
@@ -131,6 +132,7 @@ Practice of LeetCode
 |725|Split Linked List in Parts|[C++](0725.cpp)|Medium|Linked List|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |747|Largest Number At Least Twice of Others||[C++](0747.cpp)|Easy|Array, Sorting|
+|799|Champagne Tower|[C++](0799.cpp)|Medium|Dynamic Programming|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
@@ -143,6 +145,7 @@ Practice of LeetCode
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
+|1048|Longest String Chain|[C++](1048.cpp)|Medium|Array, Hash Table, Two Pointers, String, Dynamic Programming|
 |1051|Height Checker|[C++](1051.cpp)|Easy|Array, Sorting, Counting Sort|
 |1089|Duplicate Zeros|[C++](1089.cpp)|Easy|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
@@ -194,3 +197,6 @@ Practice of LeetCode
 |2859|Sum of Values at Indices With K Set Bits|[C++](2859.cpp)|Easy|Array, Bit Manipulation|
 |2860|Happy Students|[C++](2860.cpp)|Medium|Array, Sorting, Enumeration|
 |2861|Maximum Number of Alloys|[C++](2861.cpp)|Medium|Array, Binary Search|
+|2864|Maximum Odd Binary Number|[C++](2864.cpp)|Easy|
+|2865|Beautiful Towers I|[C++](2865.cpp)|Medium|
+|2866|Beautiful Towers II|[C++](2866.cpp)|Medium|
