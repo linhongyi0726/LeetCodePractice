@@ -93,6 +93,7 @@ Practice of LeetCode
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
 |283|Move Zeroes|[C++](0283.cpp)|Easy|Array, Two Pointers|
 |287|Find the Duplicate Number|[C++](0287.cpp)|Medium|Array, Two Pointers, Binary Search, Bit Manipulation|
+|316|Remove Duplicate Letters|[C++](0316.cpp)|Medium|String, Stack, Greedy, Monotonic Stack|
 |322|Coin Change|[C++](0322.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search|
 |326|Power of Three|[C++](0326.cpp)|Easy|Math, Recursion|
 |328|Odd Even Linked List[C++](0328.cpp)|Medium|Linked List|
@@ -104,6 +105,7 @@ Practice of LeetCode
 |367|Valid Perfect Square|[C++](0367.cpp)|Easy|Math, Binary Search|
 |377|Combination Sum IV|[C++](0377.cpp)|Medium|Array, Dynamic Programming|
 |383|Ransom Note|[C++](0383.cpp)|Easy|Hash Table, String, Counting|
+|389|Find the Difference|[C++](0389.cpp)|Easy|Hash Table, String, Bit Manipulation, Sorting|
 |392|Is Subsequence|[C++](0392.cpp)|Easy|Two Pointers, String, Dynamic Programming|
 |395|Longest Substring with At Least K Repeating Characters|[C++](0395.cpp)|Medium|Hash Table, String, Divide and Conquer, Sliding Window|
 |409|Longest Palindrome|[C++](0409.cpp)|Easy|Hash Table, String, Greedy|
@@ -136,6 +138,7 @@ Practice of LeetCode
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
+|899|Orderly Queue|[C++](0899.cpp)|Hard|Math, String, Sorting|
 |904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
 |941|Valid Mountain Array|[C++](0941.cpp)|Easy|Array|
@@ -147,6 +150,7 @@ Practice of LeetCode
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
 |1048|Longest String Chain|[C++](1048.cpp)|Medium|Array, Hash Table, Two Pointers, String, Dynamic Programming|
 |1051|Height Checker|[C++](1051.cpp)|Easy|Array, Sorting, Counting Sort|
+|1081|Smallest Subsequence of Distinct Characters|[C++](1081.cpp)|Medium|String, Stack, Greedy, Monotonic Stack|
 |1089|Duplicate Zeros|[C++](1089.cpp)|Easy|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
 |1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
