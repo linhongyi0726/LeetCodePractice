@@ -138,6 +138,7 @@ Practice of LeetCode
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
+|880|Decoded String at Index|[C++](0880.cpp)|Medium|String, Stack|
 |899|Orderly Queue|[C++](0899.cpp)|Hard|Math, String, Sorting|
 |904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
@@ -201,6 +202,6 @@ Practice of LeetCode
 |2859|Sum of Values at Indices With K Set Bits|[C++](2859.cpp)|Easy|Array, Bit Manipulation|
 |2860|Happy Students|[C++](2860.cpp)|Medium|Array, Sorting, Enumeration|
 |2861|Maximum Number of Alloys|[C++](2861.cpp)|Medium|Array, Binary Search|
-|2864|Maximum Odd Binary Number|[C++](2864.cpp)|Easy|
-|2865|Beautiful Towers I|[C++](2865.cpp)|Medium|
-|2866|Beautiful Towers II|[C++](2866.cpp)|Medium|
+|2864|Maximum Odd Binary Number|[C++](2864.cpp)|Easy|Math, String, Greedy|
+|2865|Beautiful Towers I|[C++](2865.cpp)|Medium|Array, Stack, Monotonic Stack|
+|2866|Beautiful Towers II|[C++](2866.cpp)|Medium|Array, Stack, Monotonic Stack|

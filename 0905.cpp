@@ -1,3 +1,19 @@
+// Second time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    vector<int> sortArrayByParity(vector<int>& nums) {
+        for (int l = 0, r = 0; r < nums.size(); ++r) {
+            if ((nums[r]&1) == 0)
+                swap(nums[l++], nums[r]);
+        }
+        return nums;
+    }
+};
+
+
 // First time
 /*
     2 ptr
