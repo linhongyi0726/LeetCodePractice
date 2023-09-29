@@ -139,6 +139,7 @@ Practice of LeetCode
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
 |880|Decoded String at Index|[C++](0880.cpp)|Medium|String, Stack|
+|896|Monotonic Array|[C++](0896.cpp)|Easy|Array|
 |899|Orderly Queue|[C++](0899.cpp)|Hard|Math, String, Sorting|
 |904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
