@@ -67,6 +67,7 @@ Practice of LeetCode
 |139|Word Break|[C++](0139.cpp)|Medium|Array, Hash Table, String, Dynamic Programming, Trie, Memoization|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |142|Linked List Cycle II|[C++](0142.cpp)|Medium|Hash Table, Linked List, Two Pointers|
+|146|LRU Cache|[C++](0146.cpp)|Medium|Hash Table, Linked List, Design, Doubly-Linked List|
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
 |155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
 |160|Intersection of Two Linked Lists|[C++](0160.cpp)|Easy|Hash Table, Linked List, Two Pointers|
@@ -115,6 +116,7 @@ Practice of LeetCode
 |424|Longest Repeating Character Replacement|[C++](0424.cpp)|Medium|Hash Table, String, Sliding Window|
 |430|Flatten a Multilevel Doubly Linked List|[C++](0430.cpp)|Medium|Linked List, Depth-First Search, Doubly-Linked List|
 |448|Find All Numbers Disappeared in an Array|[C++](0448.cpp)|Easy|Array, Hash Table|
+|456|132 Pattern|[C++](0456.cpp)|Medium|Array, Binary Search, Stack, Monotonic Stack, Ordered Set|
 |485|Max Consecutive Ones|[C++](0485.cpp)|Easy|Array|
 |487|Max Consecutive Ones II|[C++](0487.cpp)|Medium|Array, Dynamic Programming, Sliding Window|
 |509|Fibonacci Number|[C++](0509.cpp)|Easy|Math, Dynamic Programming, Recursion, Memoization|
