@@ -133,7 +133,7 @@ Practice of LeetCode
 |696|Count Binary Substrings|[C++](0696.cpp)|Easy|Two Pointers, String|
 |697|Degree of an Array|[C++](0697.cpp)|Easy|Array, Hash Table|
 |704|Binary Search|[C++](0704.cpp)|Easy|Array, Binary Search|
-|706|Design HashMap|[C++](0706.cpp)|Array, Hash Table, Linked List, Design, Hash Function|
+|706|Design HashMap|[C++](0706.cpp)|Easy|Array, Hash Table, Linked List, Design, Hash Function|
 |707|Design Linked List|[C++](0707.cpp)|Medium|Linked List, Design|
 |708|Insert into a Sorted Circular Linked List|[C++](0708.cpp)|Medium|Linked List|
 |721|Accounts Merge|[C++](0721.cpp)|Medium|Array, String, Depth-First Search, Breadth-First Search, Union Find|
