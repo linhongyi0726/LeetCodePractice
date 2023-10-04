@@ -8,11 +8,11 @@
         map(key, list node) -> help to locate which node need to be removed/inserted
         list(key, value) -> "key" help to locate which element in map need to be removed
 
-    In c++ std list, there is slice() API can be used,
+    In c++ STL list, there is slice() API can be used,
     which can insert iterator in any position in list
     list1_name.splice (iterator position, list2, iterator i)
 */
-// Put LRU element at the begin, without using std list
+// Put LRU element at the begin, without using STL list
 class LRUCache {
 private:
     struct ListNode {
