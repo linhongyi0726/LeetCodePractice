@@ -140,7 +140,7 @@ Practice of LeetCode
 |724|Find Pivot Index|[C++](0724.cpp)|Easy|Array, Prefix Sum|
 |725|Split Linked List in Parts|[C++](0725.cpp)|Medium|Linked List|
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
-|747|Largest Number At Least Twice of Others||[C++](0747.cpp)|Easy|Array, Sorting|
+|747|Largest Number At Least Twice of Others|[C++](0747.cpp)|Easy|Array, Sorting|
 |799|Champagne Tower|[C++](0799.cpp)|Medium|Dynamic Programming|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
