@@ -1,3 +1,42 @@
+// Second time
+/*
+    remove majority and non-majority number together, the remain number is answer
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int maj = 0, cnt = 0;
+        for (int num : nums) {
+            if (num == maj) {
+                cnt++;
+            } else if (cnt == 0) {
+                maj = num;
+                cnt = 1;
+            } else {
+                cnt--;
+            }
+        }
+        return maj;
+    }
+};
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int maj = 0, cnt = 0;
+        for (int num : nums) {
+            if (cnt == 0)
+                maj = num;
+            if (num == maj)
+                cnt++;
+            else
+                cnt--;
+        }
+        return maj;
+    }
+};
+
 // First time
 /*
     Majority means the element will appear more than n/2 times

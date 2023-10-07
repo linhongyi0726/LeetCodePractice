@@ -1,31 +1,35 @@
+// Second time
+/*
+    DFS
+    T: O(V+E)/S: O(V+E)
+*/
+class Solution {
+public:
+    unordered_map<Node *, Node *> mp;
+    Node* cloneGraph(Node* node) {
+        return dfs(node);
+    }
+    Node* dfs(Node *node) {
+        if (!node)
+            return nullptr;
+        if (mp.count(node))
+            return mp[node];
+        mp[node] = new Node(node->val);
+        for (auto next : node->neighbors) {
+            mp[node]->neighbors.push_back(dfs(next));
+        }
+        return mp[node];
+    }
+};
+
+
 // First time
 /*
     DFS
     Use recursion instead of stack to DFS and hash map to store the node already be copied
     T: O(vertex + edge) -> adjacency list
-    S: O(V)
+    S: O(V+E) -> each nodes have its neighbors vector
 */
-/*
-// Definition for a Node.
-class Node {
-public:
-    int val;
-    vector<Node*> neighbors;
-    Node() {
-        val = 0;
-        neighbors = vector<Node*>();
-    }
-    Node(int _val) {
-        val = _val;
-        neighbors = vector<Node*>();
-    }
-    Node(int _val, vector<Node*> _neighbors) {
-        val = _val;
-        neighbors = _neighbors;
-    }
-};
-*/
-
 class Solution {
 public:
     unordered_map<Node*, Node*> visit;

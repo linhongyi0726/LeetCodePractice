@@ -76,6 +76,7 @@ Practice of LeetCode
 |167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |191|Number of 1 Bits|[C++](0191.cpp)|Easy|Divide and Conquer, Bit Manipulation|
+|198|House Robber|[C++](0198.cpp)|Medium|Array, Dynamic Programming|
 |200|Number of Islands|[C++](0200.cpp)|Medium|Array, Depth-First Search, Breadth-First Search, Union Find, Matrix|
 |203|Remove Linked List Elements|[C++](0203.cpp)|Easy|Linked List, Recursion|
 |204|Count Primes|[C++](0204.cpp)|Medium|Array, Math, Enumeration, Number Theory|
@@ -83,8 +84,10 @@ Practice of LeetCode
 |207|Course Schedule|[C++](0207.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
 |208|Implement Trie (Prefix Tree)|[C++](0208.cpp)|Medium|Hash Table, String, Design, Trie|
 |209|Minimum Size Subarray Sum|[C++](0209.cpp)|Medium|Array, Binary Search, Sliding Window, Prefix Sum|
+|210|Course Schedule II|[C++](0210.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
 |217|Contains Duplicate|[C++](0217.cpp)|Easy|Array, Hash Table, Sorting|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
+|229|Majority Element II|[C++](0229.cpp)|Medium|Array, Hash Table, Sorting, Counting|
 |231|Power of Two|[C++](0231.cpp)|Easy|Math, Bit Manipulation, Recursion|
 |232|Implement Queue using Stacks|[C++](0232.cpp)|Easy|Stack, Design, Queue|
 |234|Palindrome Linked List|[C++](0234.cpp)|Easy|Linked List, Two Pointers, Stack, Recursion|
@@ -103,6 +106,7 @@ Practice of LeetCode
 |338|Counting Bits|[C++](0338.cpp)|Easy|Dynamic Programming, Bit Manipulation|
 |340|Longest Substring with At Most K Distinct Characters|[C++](0340.cpp)|Medium|Hash Table, String, Sliding Window|
 |342|Power of Four|[C++](0342.cpp), [Python](0342.py)|Easy|Bit Manipulation|
+|343|Integer Break|[C++](0343.cpp)|Medium|Math, Dynamic Programming|
 |347|Top K Frequent Elements|[C++](0347.cpp)|Medium|Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect|
 |349|Intersection of Two Arrays|[C++](0349.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
 |367|Valid Perfect Square|[C++](0367.cpp)|Easy|Math, Binary Search|
@@ -181,6 +185,7 @@ Practice of LeetCode
 |2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
 |2038|Remove Colored Pieces if Both Neighbors are the Same Color|[C++](2038.cpp)|Medium|Math, String, Greedy, Game Theory|
+|2131|Longest Palindrome by Concatenating Two Letter Words|[C++](2131.cpp)|Medium|Array, Hash Table, String, Greedy, Counting|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
