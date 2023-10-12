@@ -73,6 +73,7 @@ Practice of LeetCode
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
 |155|Min Stack|[C++](0155.cpp)|Medium|Stack, Design|
 |160|Intersection of Two Linked Lists|[C++](0160.cpp)|Easy|Hash Table, Linked List, Two Pointers|
+|162|Find Peak Element|[C++](0162.cpp)|Medium|Array, Binary Search|
 |167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
 |191|Number of 1 Bits|[C++](0191.cpp)|Easy|Divide and Conquer, Bit Manipulation|
@@ -95,6 +96,8 @@ Practice of LeetCode
 |236|Lowest Common Ancestor of a Binary Tree|[C++](0236.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |238|Product of Array Except Self|[C++](0238.cpp)|Medium|Array, Prefix Sum|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
+|252|Meeting Rooms|[C++](0252.cpp)|Easy|Array, Sorting|
+|253|Meeting Rooms II|[C++](0253.cpp)|Medium|Topics, Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum|
 |268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
 |283|Move Zeroes|[C++](0283.cpp)|Easy|Array, Two Pointers|
@@ -147,6 +150,7 @@ Practice of LeetCode
 |747|Largest Number At Least Twice of Others|[C++](0747.cpp)|Easy|Array, Sorting|
 |799|Champagne Tower|[C++](0799.cpp)|Medium|Dynamic Programming|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
+|852|Peak Index in a Mountain Array|[C++](0852.cpp)|Medium|Array, Binary Search|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
 |880|Decoded String at Index|[C++](0880.cpp)|Medium|String, Stack|
@@ -160,11 +164,13 @@ Practice of LeetCode
 |977|Squares of a Sorted Array|[C++](0977.cpp)|Easy|Array, Two Pointers, Sorting|
 |981|Time Based Key-Value Store|[C++](0981.cpp)|Medium|Hash Table, String, Binary Search, Design|
 |994|Rotting Oranges|[C++](0994.cpp)|Medium|Array, Breadth-First Search, Matrix|
+|1035|Uncrossed Lines|[C++](1035.cpp)|Medium|Array, Dynamic Programming|
 |1046|Last Stone Weight|[C++](1046.cpp)|Easy|Array, Heap (Priority Queue)|
 |1048|Longest String Chain|[C++](1048.cpp)|Medium|Array, Hash Table, Two Pointers, String, Dynamic Programming|
 |1051|Height Checker|[C++](1051.cpp)|Easy|Array, Sorting, Counting Sort|
 |1081|Smallest Subsequence of Distinct Characters|[C++](1081.cpp)|Medium|String, Stack, Greedy, Monotonic Stack|
 |1089|Duplicate Zeros|[C++](1089.cpp)|Easy|Array, Two Pointers|
+|1095|Find in Mountain Array|[C++](1095.cpp)|Hard|Array, Binary Search, Interactive|
 |1143|Longest Common Subsequence|[C++](1143.cpp)|Medium|String, Dynamic Programming|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
 |1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
@@ -175,6 +181,8 @@ Practice of LeetCode
 |1337|The K Weakest Rows in a Matrix|[C++](1337.cpp)|Easy|Array, Binary Search, Sorting, Heap (Priority Queue), Matrix|
 |1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1346|Check If N and Its Double Exist|[C++](1346.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
+|1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
+|1458|Max Dot Product of Two Subsequences|[C++](1458.cpp)|Hard|Array, Dynamic Programming|
 |1470|Shuffle the Array|[C++](1470.cpp)|Easy|Array|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1512|Number of Good Pairs|[C++](1512.cpp)|Easy|Array, Hash Table, Math, Counting|
@@ -183,11 +191,13 @@ Practice of LeetCode
 |1658|Minimum Operations to Reduce X to Zero|[C++](1658.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
+|2009|Minimum Number of Operations to Make Array Continuous|[C++](2009.cpp)|Hard|Array, Binary Search|
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
 |2038|Remove Colored Pieces if Both Neighbors are the Same Color|[C++](2038.cpp)|Medium|Math, String, Greedy, Game Theory|
 |2131|Longest Palindrome by Concatenating Two Letter Words|[C++](2131.cpp)|Medium|Array, Hash Table, String, Greedy, Counting|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
+|2251|Number of Flowers in Full Bloom|[C++](2251.cpp)|Hard|Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
 |2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
