@@ -1,6 +1,7 @@
 // Third time
 /*
     DP
+    Unbounded knapsack problem
     T: O(nm)/S: O(n)
 */
 class Solution {

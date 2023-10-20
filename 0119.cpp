@@ -1,3 +1,43 @@
+// Second time
+/*
+    Create the result array witch size is for rowIndex
+    Because we only need the top and left-top number to add for current number,
+    we can iterate from the end to avoid overriding the previous row answer
+    T: O(n^2)/S: O(n)
+*/
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+        vector<int> dp(rowIndex + 1, 1);
+        for (int row = 2; row <= rowIndex; ++row) {
+            for (int col = row - 1; col >= 1; --col) {
+                dp[col] = dp[col - 1] + dp[col];
+            }
+        }
+        return dp;
+    }
+};
+
+/*
+    construct the Pascal's Triangle
+    T: O(n^2)/S: O(n^2)
+*/
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+        vector<vector<int>> dp;
+        for (int row = 0; row <= rowIndex; ++row) {
+            vector<int> cur(row + 1, 1);
+            for (int col = 1; col < row; ++col) {
+                cur[col] = dp[row - 1][col - 1] + dp[row - 1][col];
+            }
+            dp.push_back(cur);
+        }
+        return dp[rowIndex];
+    }
+};
+
+
 // First time
 /*
        1
