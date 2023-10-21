@@ -187,6 +187,7 @@ Practice of LeetCode
 |1346|Check If N and Its Double Exist|[C++](1346.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
 |1361|Validate Binary Tree Nodes|[C++](1361.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Union Find, Graph, Binary Tree|
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
+|1425|Constrained Subsequence Sum|[C++](1425.cpp)|Hard|Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
 |1458|Max Dot Product of Two Subsequences|[C++](1458.cpp)|Hard|Array, Dynamic Programming|
 |1470|Shuffle the Array|[C++](1470.cpp)|Easy|Array|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
