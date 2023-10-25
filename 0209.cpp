@@ -1,3 +1,45 @@
+// Third time
+/*
+    2 ptr
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int n = nums.size(), ret = INT_MAX, sum = 0;
+        for (int l = 0, r = 0; r < n; ++r) {
+            sum += nums[r];
+            while (sum >= target) {
+                ret = min(ret, r - l + 1);
+                sum -= nums[l++];
+            }
+        }
+        return ret == INT_MAX ? 0 : ret;
+    }
+};
+
+/*
+    binary search the prefix sum
+    T: O(nlogn)/S: O(1)
+*/
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) {
+        nums.insert(nums.begin(), 0);
+        int n = nums.size(), ret = INT_MAX;
+        for (int i = 1; i < n; ++i) {
+            nums[i] += nums[i - 1];
+        }
+        for (int i = 0; i < n; ++i) {
+            int idx = lower_bound(nums.begin() + i, nums.end(), nums[i] + target) - nums.begin();
+            if (idx != n) {
+                ret = min(ret, idx - i);
+            }
+        }
+        return ret == INT_MAX ? 0 : ret;
+    }
+};
+
 // Second time
 /*
     If the num can be negative -> Problem 862

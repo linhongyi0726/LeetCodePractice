@@ -95,6 +95,7 @@ Practice of LeetCode
 |235|Lowest Common Ancestor of a Binary Search Tree|[C++](0235.cpp)|Medium|Tree, Depth-first Search, Binary Search Tree, Binary Tree|
 |236|Lowest Common Ancestor of a Binary Tree|[C++](0236.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |238|Product of Array Except Self|[C++](0238.cpp)|Medium|Array, Prefix Sum|
+|239|Sliding Window Maximum|[C++](0239.cpp)|Hard|Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |252|Meeting Rooms|[C++](0252.cpp)|Easy|Array, Sorting|
 |253|Meeting Rooms II|[C++](0253.cpp)|Medium|Topics, Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum|
@@ -130,6 +131,7 @@ Practice of LeetCode
 |485|Max Consecutive Ones|[C++](0485.cpp)|Easy|Array|
 |487|Max Consecutive Ones II|[C++](0487.cpp)|Medium|Array, Dynamic Programming, Sliding Window|
 |509|Fibonacci Number|[C++](0509.cpp)|Easy|Math, Dynamic Programming, Recursion, Memoization|
+|515|Find Largest Value in Each Tree Row|[C++](0515.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Binary Tree|
 |518|Coin Change II|[C++](0518.cpp)|Medium|Array, Dynamic Programming|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
@@ -151,11 +153,12 @@ Practice of LeetCode
 |733|Flood Fill|[C++](0733.cpp)|Easy|Array, Depth-first Search, Breadth-first Search, Matrix|
 |746|Min Cost Climbing Stairs|[C++](0746.cpp)|Easy|Array, Dynamic Programming|
 |747|Largest Number At Least Twice of Others|[C++](0747.cpp)|Easy|Array, Sorting|
+|779|K-th Symbol in Grammar|[C++](0779.cpp)|Medium|Math, Bit Manipulation, Recursion|
 |799|Champagne Tower|[C++](0799.cpp)|Medium|Dynamic Programming|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |852|Peak Index in a Mountain Array|[C++](0852.cpp)|Medium|Array, Binary Search|
-|876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
+|876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |880|Decoded String at Index|[C++](0880.cpp)|Medium|String, Stack|
 |896|Monotonic Array|[C++](0896.cpp)|Easy|Array|
 |899|Orderly Queue|[C++](0899.cpp)|Hard|Math, String, Sorting|
@@ -196,6 +199,7 @@ Practice of LeetCode
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
 |1658|Minimum Operations to Reduce X to Zero|[C++](1658.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
+|1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
 |2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
 |2009|Minimum Number of Operations to Make Array Continuous|[C++](2009.cpp)|Hard|Array, Binary Search|
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
