@@ -155,6 +155,7 @@ Practice of LeetCode
 |747|Largest Number At Least Twice of Others|[C++](0747.cpp)|Easy|Array, Sorting|
 |779|K-th Symbol in Grammar|[C++](0779.cpp)|Medium|Math, Bit Manipulation, Recursion|
 |799|Champagne Tower|[C++](0799.cpp)|Medium|Dynamic Programming|
+|823|Binary Trees With Factors|[C++](0823.cpp)|Medium|Array, Hash Table, Dynamic Programming, Sorting|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |852|Peak Index in a Mountain Array|[C++](0852.cpp)|Medium|Array, Binary Search|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
@@ -210,6 +211,7 @@ Practice of LeetCode
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2251|Number of Flowers in Full Bloom|[C++](2251.cpp)|Hard|Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set|
 |2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
+|2571|Minimum Operations to Reduce an Integer to 0|[C++](2571.cpp)|Medium|Dynamic Programming, Greedy, Bit Manipulation|
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
 |2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
 |2741|Special Permutations|[C++](2741.cpp)|Medium|Array, Dynamic Programming, Bit Manipulation, Bitmask|

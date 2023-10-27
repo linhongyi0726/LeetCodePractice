@@ -1,3 +1,69 @@
+// Second time
+/*
+    2 ptr
+    Choose middle point then 2 ptr to find the same character
+    Notice to handle odd and even cases
+    T: O(n^2)/S: O(1)
+*/
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        int n = s.length(), len = 1, start = 0;;
+        for (int i = 0; i < n; ++i) {
+            int l = i, r = i;
+            while (l >= 0 && r < n && s[l] == s[r]) {
+                l--;
+                r++;
+            }
+            if (r - l - 1 > len) {
+                start = l + 1;
+                len = r - l - 1;
+            }
+            l = i;
+            r = i + 1;
+            while (l >= 0 && r < n && s[l] == s[r]) {
+                l--;
+                r++;
+            }
+            if (r - l - 1 > len) {
+                start = l + 1;
+                len = r - l - 1;
+            }
+        }
+        return s.substr(start, len);
+    }
+};
+
+/*
+    DP
+    dp[i][j] denote whether there is a palindrome start from i and end to j or not
+    *Notice to add j-i=1 in the judgement to handle only 2 elements condition (avoid i+1 > j-1)
+
+    T: O(n^2)/ S: O(n^2)
+*/
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        int n = s.length(), start = 0, len = 1;
+        vector<vector<bool>> dp(n, vector<bool>(n, false));
+        for (int i = 0; i < n; ++i)
+            dp[i][i] = true;
+        for (int i = n - 2; i >= 0; --i) {
+            for (int j = i + 1; j < n; ++j) {
+                if (s[i] == s[j] && (j - i == 1 || dp[i + 1][j - 1])) {
+                    dp[i][j] = true;
+                    if (j - i + 1 > len) {
+                        len = j - i + 1;
+                        start = i;
+                    }
+                }
+            }
+        }
+        return s.substr(start, len);
+    }
+};
+
+
 // First time
 /*
     Manacher's Algorithm

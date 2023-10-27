@@ -1,3 +1,34 @@
+// Second time
+/*
+    choose the smaller between the size of prev and cur group
+    Notice to start with cur=1 because we start at i=1
+    and after comparing prev and cur, also need to initialize cur=1
+    (to start counting the next new pair of group prev and cur)
+
+    "0 0 1 1 0 0 1 1"
+    |___|___|
+    prev cur
+
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int countBinarySubstrings(string s) {
+        int ret = 0, prev = 0, cur = 1;
+        for (int i = 1; i <= s.length(); ++i) {
+            if (s[i] != s[i - 1] || i == s.length()) {
+                ret += min(prev, cur);
+                prev = cur;
+                cur = 1;
+            } else {
+                cur++;
+            }
+        }
+        return ret;
+    }
+};
+
+
 // First time
 /*
     Group '0' and '1', then choose minium of continuous number

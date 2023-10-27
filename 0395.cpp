@@ -1,3 +1,64 @@
+// Second time
+/*
+    Use sliding windows to find the number of character >= k
+    And limit the unique characters in the window, (over the limit -> shrink the window)
+    When all unique characters's number is greater or equal to k
+    -> compute the length
+
+    T: O(n*26)/S: O(26)
+*/
+class Solution {
+public:
+    int longestSubstring(string s, int k) {
+        int n = s.length(), ret = 0;
+        for (int num = 1; num <= 26; ++num) {
+            vector<int> cnt(26, 0);
+            int l = 0, r = 0, uni = 0, numk = 0;
+            for (; r < n; ++r) {
+                if (cnt[s[r] - 'a'] == 0)
+                    uni++;
+                if (++cnt[s[r] - 'a'] == k)
+                    numk++;
+                while (l < r && uni > num) {
+                    if (cnt[s[l] - 'a'] == k)
+                        numk--;
+                    cnt[s[l] - 'a']--;
+                    if (cnt[s[l++] - 'a'] == 0)
+                        uni--;
+                }
+                if (uni == numk)
+                    ret = max(ret, r - l + 1);
+            }
+        }
+        return ret;
+    }
+};
+
+/*
+    Divide and conquer
+    T: O(n^2)/S: O(n)
+*/
+class Solution {
+public:
+    int longestSubstring(string s, int k) {
+        int n = s.length();
+        unordered_map<char, int> mp;
+        for (int i = 0; i < n; ++i)
+            mp[s[i]]++;
+        int idx = 0;
+        for (; idx < n; ++idx) {
+            if (mp[s[idx]] < k)
+                break;
+        }
+        if (idx == n)
+            return idx;
+        int l = longestSubstring(s.substr(0, idx), k);
+        int r = longestSubstring(s.substr(idx + 1), k);
+        return max(l, r);
+    }
+};
+
+
 // First time
 /*
     2 ptr
