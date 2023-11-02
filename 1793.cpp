@@ -2,7 +2,7 @@
 /*
     2 ptr with greedy
     We need to let the sub-array size and the elements inside larger
-    -> start at index k, then choose the maximum direction to expand
+    -> start at index k, then expand to the direction which element is larger
     T: O(n)/S: O(1)
 */
 class Solution {

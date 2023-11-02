@@ -1,3 +1,21 @@
+// Second time
+/*
+    Only one transaction
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int profit = 0, buy = prices[0];
+        for (int price : prices) {
+            profit = max(profit, price - buy);
+            buy = min(buy, price);
+        }
+        return profit;
+    }
+};
+
+
 // First time
 /*
     Dynamic Programming?

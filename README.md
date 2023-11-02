@@ -61,6 +61,8 @@ Practice of LeetCode
 |118|Pascal's Triangle|[C++](0118.cpp)|Easy|Array, Dynamic Programming|
 |119|Pascal's Triangle II|[C++](0119.cpp)|Easy|Array, Dynamic Programming|
 |121|Best Time to Buy and Sell Stock|[C++](0121.cpp)|Easy|Array, Dynamic Programming|
+|122|Best Time to Buy and Sell Stock II|[C++](0122.cpp)|Medium|Array, Dynamic Programming, Greedy|
+|123|Best Time to Buy and Sell Stock III|[C++](0123.cpp)|Hard|Array, Dynamic Programming|
 |125|Valid Palindrome|[C++](0125.cpp), [Python](0125.py)|Easy|Two Pointers, String|
 |133|Clone Graph|[C++](0133.cpp)|Medium|Hash Table, Depth-First Search, Breadth-First Search, Graph|
 |135|Candy|[C++](0135.cpp)|Hard|Array, Greedy|
@@ -76,6 +78,7 @@ Practice of LeetCode
 |162|Find Peak Element|[C++](0162.cpp)|Medium|Array, Binary Search|
 |167|Two Sum II - Input Array Is Sorted|[C++](0167.cpp)|Medium|Array, Two Pointers, Binary Search|
 |169|Majority Element|[C++](0169.cpp)|Easy|Array, Hash Table, Divide and Conquer, Sorting, Counting|
+|188|Best Time to Buy and Sell Stock IV|[C++](0188.cpp)|Hard|Array, Dynamic Programming|
 |191|Number of 1 Bits|[C++](0191.cpp)|Easy|Divide and Conquer, Bit Manipulation|
 |198|House Robber|[C++](0198.cpp)|Medium|Array, Dynamic Programming|
 |200|Number of Islands|[C++](0200.cpp)|Medium|Array, Depth-First Search, Breadth-First Search, Union Find, Matrix|
@@ -128,8 +131,10 @@ Practice of LeetCode
 |430|Flatten a Multilevel Doubly Linked List|[C++](0430.cpp)|Medium|Linked List, Depth-First Search, Doubly-Linked List|
 |448|Find All Numbers Disappeared in an Array|[C++](0448.cpp)|Easy|Array, Hash Table|
 |456|132 Pattern|[C++](0456.cpp)|Medium|Array, Binary Search, Stack, Monotonic Stack, Ordered Set|
+|458|Poor Pigs|[C++](0458.cpp)|Hard|Math, Dynamic Programming, Combinatorics|
 |485|Max Consecutive Ones|[C++](0485.cpp)|Easy|Array|
 |487|Max Consecutive Ones II|[C++](0487.cpp)|Medium|Array, Dynamic Programming, Sliding Window|
+|501|Find Mode in Binary Search Tree|[C++](0501.cpp)|Easy|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |509|Fibonacci Number|[C++](0509.cpp)|Easy|Math, Dynamic Programming, Recursion, Memoization|
 |515|Find Largest Value in Each Tree Row|[C++](0515.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Binary Tree|
 |518|Coin Change II|[C++](0518.cpp)|Medium|Array, Dynamic Programming|
@@ -180,6 +185,7 @@ Practice of LeetCode
 |1095|Find in Mountain Array|[C++](1095.cpp)|Hard|Array, Binary Search, Interactive|
 |1143|Longest Common Subsequence|[C++](1143.cpp)|Medium|String, Dynamic Programming|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
+|1220|Count Vowels Permutation|[C++](1220.cpp)|Hard|Dynamic Programming|
 |1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
 |1235|Maximum Profit in Job Scheduling|[C++](1235.cpp)|Hard|Array, Binary Search, Dynamic Programming, Sorting|
 |1269|Number of Ways to Stay in the Same Place After Some Steps|[C++](1269.cpp)|Hard|Dynamic Programming|
@@ -189,6 +195,7 @@ Practice of LeetCode
 |1337|The K Weakest Rows in a Matrix|[C++](1337.cpp)|Easy|Array, Binary Search, Sorting, Heap (Priority Queue), Matrix|
 |1342|Number of Steps to Reduce a Number to Zero|[C++](1342.cpp)|Easy|Math, Bit Manipulation|
 |1346|Check If N and Its Double Exist|[C++](1346.cpp)|Easy|Array, Hash Table, Two Pointers, Binary Search, Sorting|
+|1356|Sort Integers by The Number of 1 Bits|[C++](1356.cpp)|Easy|Array, Bit Manipulation, Sorting, Counting|
 |1361|Validate Binary Tree Nodes|[C++](1361.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Union Find, Graph, Binary Tree|
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
 |1425|Constrained Subsequence Sum|[C++](1425.cpp)|Hard|Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
@@ -210,7 +217,9 @@ Practice of LeetCode
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2251|Number of Flowers in Full Bloom|[C++](2251.cpp)|Hard|Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set|
-|2367|Number of Arithmetic Triplets|[C++](2367.py)|Easy|Array, Hash Table, Two Pointers, Enumeration|
+|2265|Count Nodes Equal to Average of Subtree|[C++](2265.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
+|2367|Number of Arithmetic Triplets|[C++](2367.cpp)|Easy|Array, Hash Table, Two Pointers, Enumeration|
+|2433|Find The Original Array of Prefix Xor|[C++](2433.cpp)|Medium|Array, Bit Manipulation|
 |2571|Minimum Operations to Reduce an Integer to 0|[C++](2571.cpp)|Medium|Dynamic Programming, Greedy, Bit Manipulation|
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
 |2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
@@ -252,3 +261,6 @@ Practice of LeetCode
 |2903|Find Indices With Index and Value Difference I|[C++](2903.cpp)|Easy|Array|
 |2904|Shortest and Lexicographically Smallest Beautiful String|[C++](2904.cpp)|Medium|String, Sliding Window|
 |2905|Find Indices With Index and Value Difference II|[C++](2905.cpp)|Medium|Array|
+|2917|Find the K-or of an Array|[C++](2917.cpp)|Easy|Array, Bit Manipulation|
+|2918|Minimum Equal Sum of Two Arrays After Replacing Zeros|[C++](2918.cpp)|Medium|Array, Greedy|
+|2919|Minimum Increment Operations to Make Array Beautiful|[C++](2919.cpp)|Medium|Array, Dynamic Programming|
