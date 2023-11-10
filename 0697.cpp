@@ -1,3 +1,31 @@
+// Second time
+/*
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    int findShortestSubArray(vector<int>& nums) {
+        unordered_map<int, int> cnt;
+        unordered_map<int, pair<int, int>> idx;
+        int n = nums.size(), degree = 0, ret = INT_MAX;
+        for (int i = 0; i < n; ++i) {
+            if (!idx.count(nums[i]))
+                idx[nums[i]] = {i, i};
+            else
+                idx[nums[i]].second = i;
+            cnt[nums[i]]++;
+            degree = max(degree, cnt[nums[i]]);
+        }
+        for (auto it : cnt) {
+            if (it.second == degree) {
+                ret = min(ret, idx[it.first].second - idx[it.first].first + 1);
+            }
+        }
+        return ret;
+    }
+};
+
+
 // First time
 /*
     Use two hash map to store number's count and number's first index
@@ -14,9 +42,8 @@
     '1' is the degree [1,2,2,1,2,1,1,1,1] -> len: 9
     '2' is the degree [2,2,1,2,1,1,1,1,2,2,2] -> len: 11
 
-    T: O(n)/S:O(n)
+    T: O(n)/S: O(n)
 */
-
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {

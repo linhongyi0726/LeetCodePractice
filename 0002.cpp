@@ -1,3 +1,41 @@
+// Second time
+/*
+    Use original linked list
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        int carry = 0, sum = 0;
+        ListNode *cur = new ListNode();
+        cur->next = l1;
+        while (cur->next || l2) {
+            if (!cur->next) {
+                sum = l2->val + carry;
+            } else if (!l2) {
+                sum = cur->next->val + carry;
+            } else {
+                sum = cur->next->val + l2->val + carry;
+            }
+            carry = sum / 10;
+            if (cur->next)
+                cur->next->val = sum % 10;
+            else
+                cur->next = new ListNode(sum % 10);
+            cur = cur->next;
+            if (l2)
+                l2 = l2->next;
+        }
+        if (carry) {
+            cur->next = new ListNode(1);
+            cur = cur->next;
+        }
+        cur = nullptr;
+        return l1;
+    }
+};
+
+
 // First time
 /*
     If we modify one of list and return, the SC can be reduced to O(1)

@@ -44,7 +44,7 @@ Practice of LeetCode
 |70|Climbing Stairs|[C++](0070.cpp), [Python](0070.py)|Easy|Math, Dynamic Programming, Memoization|
 |75|Sort Colors|[C++](0075.cpp)|Medium|Array, Two Pointers, Sorting|
 |76|Minimum Window Substring|[C++](0076.cpp)|Hard|Hash Table, String, Sliding Window|
-|78|Subsets|[Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
+|78|Subsets|[C++](0078.cpp), [Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
 |83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
 |86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
@@ -199,15 +199,22 @@ Practice of LeetCode
 |1361|Validate Binary Tree Nodes|[C++](1361.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Union Find, Graph, Binary Tree|
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
 |1425|Constrained Subsequence Sum|[C++](1425.cpp)|Hard|Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
+|1441|Build an Array With Stack Operations|[C++](1441.cpp)|Medium|Array, Stack, Simulation|
 |1458|Max Dot Product of Two Subsequences|[C++](1458.cpp)|Hard|Array, Dynamic Programming|
 |1470|Shuffle the Array|[C++](1470.cpp)|Easy|Array|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
+|1503|Last Moment Before All Ants Fall Out of a Plank|[C++](1503.cpp)|Medium|Array, Brainteaser, Simulation|
 |1512|Number of Good Pairs|[C++](1512.cpp)|Easy|Array, Hash Table, Math, Counting|
 |1530|Number of Good Leaf Nodes Pairs|[C++](1530.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
+|1535|Find the Winner of an Array Game|[C++](1535.cpp)|Medium|Array, Simulation|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
 |1658|Minimum Operations to Reduce X to Zero|[C++](1658.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
+|1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
+|1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
+|1845|Seat Reservation Manager|[C++](1845.cpp)|Medium|Design, Heap (Priority Queue)|
+|1921|Eliminate Maximum Number of Monsters|[C++](1921.cpp)|Medium|Array, Greedy, Sorting|
 |2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
 |2009|Minimum Number of Operations to Make Array Continuous|[C++](2009.cpp)|Hard|Array, Binary Search|
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
@@ -249,6 +256,7 @@ Practice of LeetCode
 |2843|Count Symmetric Integers|[C++](2843.cpp)|Easy|Math, Enumeration|
 |2844|Minimum Operations to Make a Special Number|[C++](2844.cpp)|Medium|Math, String, Greedy, Enumeration|
 |2845|Count of Interesting Subarrays|[C++](2845.cpp)|Medium|Array, Hash Table, Prefix Sum|
+|2849|Determine if a Cell Is Reachable at a Given Time|[C++](2849.cpp)|Medium|Math|
 |2859|Sum of Values at Indices With K Set Bits|[C++](2859.cpp)|Easy|Array, Bit Manipulation|
 |2860|Happy Students|[C++](2860.cpp)|Medium|Array, Sorting, Enumeration|
 |2861|Maximum Number of Alloys|[C++](2861.cpp)|Medium|Array, Binary Search|
@@ -264,3 +272,6 @@ Practice of LeetCode
 |2917|Find the K-or of an Array|[C++](2917.cpp)|Easy|Array, Bit Manipulation|
 |2918|Minimum Equal Sum of Two Arrays After Replacing Zeros|[C++](2918.cpp)|Medium|Array, Greedy|
 |2919|Minimum Increment Operations to Make Array Beautiful|[C++](2919.cpp)|Medium|Array, Dynamic Programming|
+|2923|Find Champion I|[C++](2923.cpp)|Easy|
+|2924|Find Champion II|[C++](2924.cpp)|Medium|
+|2925|Maximum Score After Applying Operations on a Tree|[C++](2925.cpp)|Medium|
