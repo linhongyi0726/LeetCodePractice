@@ -1,3 +1,104 @@
+// Second time
+/*
+    Use double linked list
+*/
+class LRUCache {
+    struct Node {
+        int key;
+        int val;
+        Node *prev;
+        Node *next;
+        Node(int key, int val, Node *prev, Node *next) : key(key), val(val), prev(prev), next(next) {}
+    };
+    unordered_map<int, Node *> mp;
+    Node *head, *tail;
+    int size;
+public:
+    LRUCache(int capacity) {
+        size = capacity;
+        head = new Node(0, 0, nullptr, nullptr);
+        tail = head;
+    }
+    
+    int get(int key) {
+        if (mp.count(key)) {
+            // update tail
+            if (mp[key] == tail && mp.size() > 1)
+                tail = tail->prev;
+            // remove node
+            mp[key]->prev->next = mp[key]->next;
+            if (mp[key]->next)
+                mp[key]->next->prev = mp[key]->prev;
+            // move node to head->next
+            mp[key]->prev = head;
+            mp[key]->next = head->next;
+            head->next = mp[key];
+            if (mp[key]->next)
+                mp[key]->next->prev = mp[key];
+            return mp[key]->val;
+        } else {
+            return -1;
+        }
+    }
+    
+    void put(int key, int value) {
+        if (mp.count(key)) {
+            get(key);
+            mp[key]->val = value;
+        } else {
+            if (mp.size() == size) {
+                mp.erase(tail->key);
+                Node *tmp = tail;
+                tail->prev->next = nullptr;
+                tail = tail->prev;
+                delete tmp;
+            }
+            mp[key] = new Node(key, value, head, head->next);
+            if (tail == head)
+                tail = mp[key];
+            if (mp[key]->next)
+                mp[key]->next->prev = mp[key];
+            head->next = mp[key];
+        }
+    }
+};
+
+class LRUCache {
+    unordered_map<int, list<pair<int, int>>::iterator> mp;
+    list<pair<int, int>> ls;
+    int size = 0;
+public:
+    LRUCache(int capacity) {
+        size = capacity;
+    }
+    
+    int get(int key) {
+        if (mp.count(key)) {
+            ls.push_front({mp[key]->first, mp[key]->second});
+            ls.erase(mp[key]);
+            mp[key] = ls.begin();
+            return mp[key]->second;
+        } else {
+            return -1;
+        }
+    }
+    
+    void put(int key, int value) {
+        if (mp.count(key)) {
+            get(key);
+            mp[key]->second = value;
+        } else {
+            if (mp.size() == size) {
+                mp.erase(ls.back().first);
+                ls.pop_back();
+            }
+            ls.push_front({key, value});
+            mp[key] = ls.begin();
+        }
+    }
+};
+
+
 // First time
 /*
     LRU cache require
@@ -9,7 +110,7 @@
         list(key, value) -> "key" help to locate which element in map need to be removed
 
     In c++ STL list, there is slice() API can be used,
-    which can insert iterator in any position in list
+    which can move iterator in any position in list
     list1_name.splice (iterator position, list2, iterator i)
 */
 // Put LRU element at the begin, without using STL list

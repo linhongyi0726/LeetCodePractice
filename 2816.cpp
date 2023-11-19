@@ -1,3 +1,24 @@
+// Second time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* doubleIt(ListNode* head) {
+        if (head->val >= 5)
+            head = new ListNode(0, head);
+        ListNode *cur = head;
+        while (cur) {
+            cur->val = (cur->val * 2) % 10;
+            if (cur->next && cur->next->val >= 5)
+                cur->val++;
+            cur = cur->next;
+        }
+        return head;
+    }
+};
+
+
 // First time
 /*
     Only need to have a carry when value >=5

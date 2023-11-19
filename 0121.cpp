@@ -1,3 +1,38 @@
+// Third time
+/*
+    Kadane's Algorithm
+    Calculate every day's profit if we sell stock at that day
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int cur = 0, ret = 0;
+        for (int i = 1; i < prices.size(); ++i) {
+            cur = max(0, cur + prices[i] - prices[i - 1]);
+            ret = max(ret, cur);
+        }
+        return ret;
+    }
+};
+
+/*
+    Choose the day which has lowest price to buy
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int ret = 0, buy = prices[0];
+        for (int i = 1; i < prices.size(); ++i) {
+            ret = max(ret, prices[i] - buy);
+            buy = min(buy, prices[i]);
+        }
+        return ret;
+    }
+};
+
+
 // Second time
 /*
     Only one transaction

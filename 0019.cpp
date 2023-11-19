@@ -1,3 +1,28 @@
+// Third time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode *dummy = new ListNode();
+        dummy->next = head;
+        ListNode *s = dummy, *f = dummy;
+        while (n--) {
+            f = f->next;
+        }
+        while (f->next) {
+            f = f->next;
+            s = s->next;
+        }
+        ListNode *tmp = s->next;
+        s->next = s->next->next;
+        delete tmp;
+        return dummy->next;
+    }
+};
+
+
 // Second time
 /*
     2 ptr

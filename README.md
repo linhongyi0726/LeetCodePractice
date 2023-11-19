@@ -89,6 +89,7 @@ Practice of LeetCode
 |208|Implement Trie (Prefix Tree)|[C++](0208.cpp)|Medium|Hash Table, String, Design, Trie|
 |209|Minimum Size Subarray Sum|[C++](0209.cpp)|Medium|Array, Binary Search, Sliding Window, Prefix Sum|
 |210|Course Schedule II|[C++](0210.cpp)|Medium|Depth-First Search, Breadth-First Search, Graph, Topological Sort|
+|215|Kth Largest Element in an Array|[C++](0215.cpp)|Medium|Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect|
 |217|Contains Duplicate|[C++](0217.cpp)|Easy|Array, Hash Table, Sorting|
 |226|Invert Binary Tree|[C++](0226.cpp)|Easy|Tree, Depth-first Search, Breadth-first Search, Binary tree|
 |229|Majority Element II|[C++](0229.cpp)|Medium|Array, Hash Table, Sorting, Counting|
@@ -102,7 +103,7 @@ Practice of LeetCode
 |242|Valid Anagram|[C++](0242.cpp)|Easy|Hash Table, String, Sorting|
 |252|Meeting Rooms|[C++](0252.cpp)|Easy|Array, Sorting|
 |253|Meeting Rooms II|[C++](0253.cpp)|Medium|Topics, Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum|
-|268|Missing Number|[Python](0268.py)|Easy|Array, Math, Bit Manipulation|
+|268|Missing Number|[C++](0268.cpp), [Python](0268.py)|Easy|Array, Math, Bit Manipulation|
 |278|First Bad Version|[C++](0278.cpp)|Easy|Binary Search, Interactive|
 |283|Move Zeroes|[C++](0283.cpp)|Easy|Array, Two Pointers|
 |287|Find the Duplicate Number|[C++](0287.cpp)|Medium|Array, Two Pointers, Binary Search, Bit Manipulation|
@@ -160,6 +161,7 @@ Practice of LeetCode
 |747|Largest Number At Least Twice of Others|[C++](0747.cpp)|Easy|Array, Sorting|
 |779|K-th Symbol in Grammar|[C++](0779.cpp)|Medium|Math, Bit Manipulation, Recursion|
 |799|Champagne Tower|[C++](0799.cpp)|Medium|Dynamic Programming|
+|815|Bus Routes|[C++](0815.cpp)|Hard|Array, Hash Table, Breadth-First Search|
 |823|Binary Trees With Factors|[C++](0823.cpp)|Medium|Array, Hash Table, Dynamic Programming, Sorting|
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |852|Peak Index in a Mountain Array|[C++](0852.cpp)|Medium|Array, Binary Search|
@@ -170,6 +172,7 @@ Practice of LeetCode
 |899|Orderly Queue|[C++](0899.cpp)|Hard|Math, String, Sorting|
 |904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
+|921|Minimum Add to Make Parentheses Valid|[C++](0921.cpp)|Medium|String, Stack, Greedy|
 |941|Valid Mountain Array|[C++](0941.cpp)|Easy|Array|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
 |974|Subarray Sums Divisible by K|[C++](0974.cpp)|Medium|Array, Hash Table, Prefix Sum|
@@ -213,8 +216,14 @@ Practice of LeetCode
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
+|1838|Frequency of the Most Frequent Element|[C++](1838.cpp)|Medium|Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum|
 |1845|Seat Reservation Manager|[C++](1845.cpp)|Medium|Design, Heap (Priority Queue)|
+|1846|Maximum Element After Decreasing and Rearranging|[C++](1846.cpp)|Medium|Array, Greedy, Sorting|
+|1877|Minimize Maximum Pair Sum in Array|[C++](1877.cpp)|Medium|Array, Two Pointers, Greedy, Sorting|
+|1887|Reduction Operations to Make the Array Elements Equal|[C++](1887.cpp)|Medium|Array, Sorting|
 |1921|Eliminate Maximum Number of Monsters|[C++](1921.cpp)|Medium|Array, Greedy, Sorting|
+|1930|Unique Length-3 Palindromic Subsequences|[C++](1930.cpp)|Medium|Hash Table, String, Prefix Sum|
+|1980|Find Unique Binary String|[C++](1980.cpp)|Medium|Array, String, Backtracking|
 |2008|Maximum Earnings From Taxi|[C++](2008.cpp)|Medium|Array, Binary Search, Dynamic Programming, Sorting|
 |2009|Minimum Number of Operations to Make Array Continuous|[C++](2009.cpp)|Hard|Array, Binary Search|
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
@@ -228,6 +237,7 @@ Practice of LeetCode
 |2367|Number of Arithmetic Triplets|[C++](2367.cpp)|Easy|Array, Hash Table, Two Pointers, Enumeration|
 |2433|Find The Original Array of Prefix Xor|[C++](2433.cpp)|Medium|Array, Bit Manipulation|
 |2571|Minimum Operations to Reduce an Integer to 0|[C++](2571.cpp)|Medium|Dynamic Programming, Greedy, Bit Manipulation|
+|2642|Design Graph With Shortest Path Calculator|[C++](2642.cpp)|Hard|Graph, Design, Heap (Priority Queue), Shortest Path|
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
 |2740|Find the Value of the Partition|[C++](2740.cpp)|Medium|Array, Sorting|
 |2741|Special Permutations|[C++](2741.cpp)|Medium|Array, Dynamic Programming, Bit Manipulation, Bitmask|
@@ -240,6 +250,7 @@ Practice of LeetCode
 |2778|Sum of Squares of Special Elements|[C++](2778.cpp)|Easy|Array, Simulation|
 |2779|Maximum Beauty of an Array After Applying Operation|[C++](2779.cpp)|Medium|Array, Binary Search, Sliding Window, Sorting|
 |2780|Minimum Index of a Valid Split|[C++](2780.cpp)|Medium|Array, Hash Table, Sorting|
+|2785|Sort Vowels in a String|[C++](2785.cpp)|Medium|String, Sorting|
 |2808|Minimum Seconds to Equalize a Circular Array|[C++](2808.cpp)|Medium|Array, Hash Table, Greedy|
 |2810|Faulty Keyboard|[C++](2810.cpp)|Easy|String, Simulation|
 |2811|Check if it is Possible to Split Array|[C++](2811.cpp)|Medium|Array, Dynamic Programming, Greedy|
@@ -272,6 +283,9 @@ Practice of LeetCode
 |2917|Find the K-or of an Array|[C++](2917.cpp)|Easy|Array, Bit Manipulation|
 |2918|Minimum Equal Sum of Two Arrays After Replacing Zeros|[C++](2918.cpp)|Medium|Array, Greedy|
 |2919|Minimum Increment Operations to Make Array Beautiful|[C++](2919.cpp)|Medium|Array, Dynamic Programming|
-|2923|Find Champion I|[C++](2923.cpp)|Easy|
-|2924|Find Champion II|[C++](2924.cpp)|Medium|
-|2925|Maximum Score After Applying Operations on a Tree|[C++](2925.cpp)|Medium|
+|2923|Find Champion I|[C++](2923.cpp)|Easy|Array, Matrix|
+|2924|Find Champion II|[C++](2924.cpp)|Medium|Graph|
+|2925|Maximum Score After Applying Operations on a Tree|[C++](2925.cpp)|Medium|Dynamic Programming, Tree, Depth-First Search|
+|2937|Make Three Strings Equal|[C++](2937.cpp)|Easy|
+|2938|Separate Black and White Balls|[C++](2938.cpp)|Medium|
+|2939|Maximum Xor Product|[C++](2939.cpp)|Medium|

@@ -1,3 +1,64 @@
+// Second time
+/*
+    with hash map
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    Node* copyRandomList(Node* head) {
+        unordered_map<Node *, Node *> mp;
+        Node *cur = head;
+        while (cur) {
+            mp[cur] = new Node(cur->val);
+            cur = cur->next;
+        }
+        cur = head;
+        while (cur) {
+            mp[cur]->next = mp[cur->next];
+            mp[cur]->random = mp[cur->random];
+            cur = cur->next;
+        }
+        return mp[head];
+    }
+};
+
+/*
+    Without hash map
+    -> three pass
+    1. Insert copied node between original nodes
+    2. Connect the random node
+    3. Separate the copied nodes and original nodes
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    Node* copyRandomList(Node* head) {
+        Node *cur = head, *tmp = nullptr;
+        while (cur) {
+            tmp = new Node(cur->val);
+            tmp->next = cur->next;
+            cur->next = tmp;
+            cur = cur->next->next;
+        }
+        cur = head;
+        while (cur) {
+            if (cur->random)
+                cur->next->random = cur->random->next;
+            cur = cur->next->next;
+        }
+        Node *header = new Node(0);
+        cur = header;
+        while (head) {
+            cur->next = head->next;
+            head->next = head->next->next;
+            cur = cur->next;
+            head = head->next;
+        }
+        return header->next;
+    }
+};
+
+
 // First time
 /*
     without hash map (3 pass):

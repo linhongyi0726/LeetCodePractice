@@ -1,3 +1,43 @@
+// Fourth time
+/*
+    Use hash set to record the character in the window
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int n = s.length(), l = 0, r = 0, ret = 0;
+        unordered_set<char> st;
+        for (; r < n; ++r) {
+            while (st.count(s[r]))
+                st.erase(s[l++]);
+            st.insert(s[r]);
+            ret = max(ret, (int)st.size());
+        }
+        return ret;
+    }
+};
+
+/*
+    Use hash map to record the last index of character we had visited
+    T: O(n)/S: O(n)
+*/
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int n = s.length(), l = 0, r = 0, ret = 0;
+        unordered_map<char, int> mp;
+        for (; r < n; ++r) {
+            if (mp.count(s[r]))
+                l = max(l, mp[s[r]] + 1);
+            mp[s[r]] = r;
+            ret = max(ret, r - l + 1);
+        }
+        return ret;
+    }
+};
+
+
 // Third time
 /*
     Sliding window + hash map/hash set
