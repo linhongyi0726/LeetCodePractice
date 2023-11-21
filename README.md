@@ -10,6 +10,7 @@ Practice of LeetCode
 |5|Longest Palindromic Substring|[C++](0005.cpp)|Medium|String, Dynamic Programming|
 |7|Reverse Integer|[Python](0007.py)|Easy|Math|
 |9|Palindrome Number|[C](0009.c), [Python](0009.py)|Easy|Math|
+|11|Container With Most Water|[C++](0011.cpp)|Medium|Array, Two Pointers, Greedy|
 |13|Roman to Integer|[Python](0013.py)|Easy|Math, String|
 |14|Longest Common Prefix|[C++](0014.cpp), [Python](0014.py)|Easy|String|
 |15|3Sum|[C++](0015.cpp)|Medium|Array, Two Pointers, Sorting|
@@ -45,7 +46,8 @@ Practice of LeetCode
 |75|Sort Colors|[C++](0075.cpp)|Medium|Array, Two Pointers, Sorting|
 |76|Minimum Window Substring|[C++](0076.cpp)|Hard|Hash Table, String, Sliding Window|
 |78|Subsets|[C++](0078.cpp), [Python](0078.py)|Medium|Array, Backtracking, Bit Manipulation|
-|83|Remove Duplicates from Sorted List|[Python](0083.py)|Easy|Linked List|
+|82|Remove Duplicates from Sorted List II|[C++](0082.cpp)|Medium|Linked List, Two Pointers|
+|83|Remove Duplicates from Sorted List|[C++](0083.cpp), [Python](0083.py)|Easy|Linked List|
 |86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
 |92|Reverse Linked List II|[C++](0092.cpp)|Medium|Linked List|
@@ -216,6 +218,7 @@ Practice of LeetCode
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
+|1814|Count Nice Pairs in an Array|[C++](1814.cpp)|Medium|Array, Hash Table, Math, Counting|
 |1838|Frequency of the Most Frequent Element|[C++](1838.cpp)|Medium|Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum|
 |1845|Seat Reservation Manager|[C++](1845.cpp)|Medium|Design, Heap (Priority Queue)|
 |1846|Maximum Element After Decreasing and Rearranging|[C++](1846.cpp)|Medium|Array, Greedy, Sorting|
@@ -235,6 +238,7 @@ Practice of LeetCode
 |2251|Number of Flowers in Full Bloom|[C++](2251.cpp)|Hard|Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set|
 |2265|Count Nodes Equal to Average of Subtree|[C++](2265.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.cpp)|Easy|Array, Hash Table, Two Pointers, Enumeration|
+|2391|Minimum Amount of Time to Collect Garbage|[C++](2391.cpp)|Medium|Array, String, Prefix Sum|
 |2433|Find The Original Array of Prefix Xor|[C++](2433.cpp)|Medium|Array, Bit Manipulation|
 |2571|Minimum Operations to Reduce an Integer to 0|[C++](2571.cpp)|Medium|Dynamic Programming, Greedy, Bit Manipulation|
 |2642|Design Graph With Shortest Path Calculator|[C++](2642.cpp)|Hard|Graph, Design, Heap (Priority Queue), Shortest Path|

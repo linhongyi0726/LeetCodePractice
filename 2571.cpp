@@ -1,3 +1,50 @@
+// Second time
+/*
+    Count bit and choose the operation that can let the number of bit become less
+    T: O(logn)/S: O(1)
+*/
+class Solution {
+public:
+    int minOperations(int n) {
+        int ret = 0, m = log2(n);
+        for (int i = 0; i <= m; ++i) {
+            if (countbit(n + (1 << i)) < countbit(n)) {
+                n += (1 << i);
+                ret++;
+            }
+        }
+        return ret + countbit(n);
+    }
+    int countbit(int n) {
+        int ret = 0;
+        while (n) {
+            ret += (n & 1);
+            n >>= 1;
+        }
+        return ret;
+    }
+};
+
+/*
+    Let the number become the nearest power of 2, then we can subtract it directly
+    And the question is how to let the diff become 0
+    T: O(logn)/S: O(1)
+*/
+class Solution {
+public:
+    int minOperations(int n) {
+        int ret = 0;
+        while (n) {
+            ret++;
+            int high = pow(2, (int)log2(n) + 1);
+            int low = pow(2, (int)log2(n));
+            n = min(high - n, n - low);
+        }
+        return ret;
+    }
+};
+
+
 // First time
 /*
     handle multiple 1 and alone 1 cases

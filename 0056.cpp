@@ -1,3 +1,28 @@
+// Second time
+/*
+    T: O(nlogn)/S: O(n)
+*/
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        sort(intervals.begin(), intervals.end());
+        vector<vector<int>> ret;
+        int n = intervals.size(), start = intervals[0][0], end = intervals[0][1];
+        for (auto interval : intervals) {
+            if (interval[0] > end) {
+                ret.push_back({start, end});
+                start = interval[0];
+                end = interval[1];
+            } else {
+                end = max(end, interval[1]);
+            }
+        }
+        ret.push_back({start, end});
+        return ret;
+    }
+};
+
+
 // First time
 /*
     if intervals[i] overlap with ans.back(), merge it
