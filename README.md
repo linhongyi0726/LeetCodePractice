@@ -203,6 +203,7 @@ Practice of LeetCode
 |1356|Sort Integers by The Number of 1 Bits|[C++](1356.cpp)|Easy|Array, Bit Manipulation, Sorting, Counting|
 |1361|Validate Binary Tree Nodes|[C++](1361.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Union Find, Graph, Binary Tree|
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
+|1424|Diagonal Traverse II|[C++](1424.cpp)|Medium|Array, Sorting, Heap (Priority Queue)|
 |1425|Constrained Subsequence Sum|[C++](1425.cpp)|Hard|Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
 |1441|Build an Array With Stack Operations|[C++](1441.cpp)|Medium|Array, Stack, Simulation|
 |1458|Max Dot Product of Two Subsequences|[C++](1458.cpp)|Hard|Array, Dynamic Programming|
@@ -212,6 +213,8 @@ Practice of LeetCode
 |1512|Number of Good Pairs|[C++](1512.cpp)|Easy|Array, Hash Table, Math, Counting|
 |1530|Number of Good Leaf Nodes Pairs|[C++](1530.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |1535|Find the Winner of an Array Game|[C++](1535.cpp)|Medium|Array, Simulation|
+|1561|Maximum Number of Coins You Can Get|[C++](1561.cpp)|Medium|Array, Math, Greedy, Sorting, Game Theory|
+|1630|Arithmetic Subarrays|[C++](1630.cpp)|Medium|Array, Sorting|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
 |1658|Minimum Operations to Reduce X to Zero|[C++](1658.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
@@ -290,6 +293,6 @@ Practice of LeetCode
 |2923|Find Champion I|[C++](2923.cpp)|Easy|Array, Matrix|
 |2924|Find Champion II|[C++](2924.cpp)|Medium|Graph|
 |2925|Maximum Score After Applying Operations on a Tree|[C++](2925.cpp)|Medium|Dynamic Programming, Tree, Depth-First Search|
-|2937|Make Three Strings Equal|[C++](2937.cpp)|Easy|
-|2938|Separate Black and White Balls|[C++](2938.cpp)|Medium|
-|2939|Maximum Xor Product|[C++](2939.cpp)|Medium|
+|2937|Make Three Strings Equal|[C++](2937.cpp)|Easy|String|
+|2938|Separate Black and White Balls|[C++](2938.cpp)|Medium|Two Pointers, String, Greedy|
+|2939|Maximum Xor Product|[C++](2939.cpp)|Medium|Math, Greedy, Bit Manipulation|
