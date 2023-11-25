@@ -1,3 +1,122 @@
+// Second time
+/*
+    calculate the length of a and b, and let the longer head move first,
+    then move both pointer together to find the intersection or nullptr
+
+    T: O(n)/S: O(1) -> n is the longer length of list
+*/
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        int lena = 0, lenb = 0;
+        ListNode *a = headA, *b = headB;
+        while (a || b) {
+            if (a) {
+                lena++;
+                a = a->next;
+            }
+            if (b) {
+                lenb++;
+                b = b->next;
+            }
+        }
+        // let lenght of a >= length of b
+        if (lena < lenb) {
+            swap(lena, lenb);
+            swap(headA, headB);
+        }
+
+        a = headA;
+        b = headB;
+        while (lena != lenb) {
+            lena--;
+            a = a->next;
+        }
+
+        while (a && b) {
+            if (a == b)
+                return a;
+            a = a->next;
+            b = b->next;
+        }
+        return nullptr;
+        /*
+        while (a != b) {
+            a = a->next;
+            b = b->next;
+        }
+        return a;
+        */
+    }
+};
+
+/*
+    Although length of a and b are diffenert, they will be together someday
+    Then can move forward together to meet at the intersection or nullptr
+
+    T: O(m+n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *a = headA, *b = headB;
+        while (a || b) {
+            if (a == b)
+                return a;
+            if (a)
+                a = a->next;
+            else
+                a = headA;
+            if (b)
+                b = b->next;
+            else
+                b = headB;
+        }
+        return nullptr;
+    }
+};
+
+/*
+    T: O(m+n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *a = headA, *b = headB;
+        while (a && b) {
+            if (a == b)
+                return a;
+            a = a->next;
+            b = b->next;
+        }
+        if (!a && b) {
+            a = b;
+            b = headB;
+            while (b) {
+                a = a->next;
+                b = b->next;
+                if (!a)
+                    a = headA;
+                if (a == b)
+                    return a;
+            }
+        } else if (a && !b) {
+            b = a;
+            a = headA;
+            while (a) {
+                a = a->next;
+                b = b->next;
+                if (!b)
+                    b = headB;
+                if (a == b)
+                    return a;
+            }
+        }
+        return nullptr;
+    }
+};
+
+
 // First time
 /*
     Length compare solution optimize -> 2 ptr solution

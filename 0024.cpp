@@ -1,3 +1,25 @@
+// Third time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        ListNode *dummy = new ListNode();
+        dummy->next = head;
+        ListNode *cur = dummy;
+        while (cur && cur->next && cur->next->next) {
+            ListNode *tmp = cur->next;
+            cur->next = cur->next->next;
+            tmp->next = tmp->next->next;
+            cur->next->next = tmp;
+            cur = cur->next->next;
+        }
+        return dummy->next;
+    }
+};
+
+
 // Second time
 /*
     dummy/cur -> 1 -> 2 -> ...

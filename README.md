@@ -218,6 +218,7 @@ Practice of LeetCode
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
 |1658|Minimum Operations to Reduce X to Zero|[C++](1658.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window, Prefix Sum|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
+|1685|Sum of Absolute Differences in a Sorted Array|[C++](1685.cpp)|Medium|Array, Math, Prefix Sum|
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
