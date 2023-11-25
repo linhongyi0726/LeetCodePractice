@@ -1,3 +1,28 @@
+// Third time
+/*
+    T: O(n)/S: O(1)
+*/
+class Solution {
+public:
+    ListNode *detectCycle(ListNode *head) {
+        ListNode *s = head, *f = head;
+        while (f && f->next) {
+            s = s->next;
+            f = f->next->next;
+            if (s == f) {
+                s = head;
+                while (s != f) {
+                    s = s->next;
+                    f = f->next;
+                }
+                return s;
+            }
+        }
+        return nullptr;
+    }
+};
+
+
 // Second time
 /*
                      where l==r
