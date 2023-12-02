@@ -175,6 +175,7 @@ Practice of LeetCode
 |904|Fruit Into Baskets|[C++](0904.cpp)|Medium|Array, Hash Table, Sliding Window|
 |905|Sort Array By Parity|[C++](0905.cpp)|Easy|Array, Two Pointers, Sorting|
 |921|Minimum Add to Make Parentheses Valid|[C++](0921.cpp)|Medium|String, Stack, Greedy|
+|935|Knight Dialer|[C++](0935.cpp)|Medium|Dynamic Programming|
 |941|Valid Mountain Array|[C++](0941.cpp)|Easy|Array|
 |973|K Closest Points to Origin|[C++](0973.cpp)|Medium|Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect|
 |974|Subarray Sums Divisible by K|[C++](0974.cpp)|Medium|Array, Hash Table, Prefix Sum|
@@ -189,6 +190,7 @@ Practice of LeetCode
 |1089|Duplicate Zeros|[C++](1089.cpp)|Easy|Array, Two Pointers|
 |1095|Find in Mountain Array|[C++](1095.cpp)|Hard|Array, Binary Search, Interactive|
 |1143|Longest Common Subsequence|[C++](1143.cpp)|Medium|String, Dynamic Programming|
+|1160|Find Words That Can Be Formed by Characters|[C++](1160.cpp)|Easy|Array, Hash Table, String|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
 |1220|Count Vowels Permutation|[C++](1220.cpp)|Hard|Dynamic Programming|
 |1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
@@ -214,11 +216,14 @@ Practice of LeetCode
 |1530|Number of Good Leaf Nodes Pairs|[C++](1530.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |1535|Find the Winner of an Array Game|[C++](1535.cpp)|Medium|Array, Simulation|
 |1561|Maximum Number of Coins You Can Get|[C++](1561.cpp)|Medium|Array, Math, Greedy, Sorting, Game Theory|
+|1611|Minimum One Bit Operations to Make Integers Zero|[C++](1611.cpp)|Hard|Dynamic Programming, Bit Manipulation, Memoization|
 |1630|Arithmetic Subarrays|[C++](1630.cpp)|Medium|Array, Sorting|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
 |1658|Minimum Operations to Reduce X to Zero|[C++](1658.cpp)|Medium|Array, Hash Table, Binary Search, Sliding Window, Prefix Sum|
+|1662|Check If Two String Arrays are Equivalent|[C++](1662.cpp)|Easy|Array, String|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |1685|Sum of Absolute Differences in a Sorted Array|[C++](1685.cpp)|Medium|Array, Math, Prefix Sum|
+|1727|Largest Submatrix With Rearrangements|[C++](1727.cpp)|Medium|Array, Greedy, Sorting, Matrix|
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
@@ -237,6 +242,7 @@ Practice of LeetCode
 |2038|Remove Colored Pieces if Both Neighbors are the Same Color|[C++](2038.cpp)|Medium|Math, String, Greedy, Game Theory|
 |2050|Parallel Courses III|[C++](2050.cpp)|Hard|Array, Dynamic Programming, Graph, Topological Sort|
 |2131|Longest Palindrome by Concatenating Two Letter Words|[C++](2131.cpp)|Medium|Array, Hash Table, String, Greedy, Counting|
+|2147|Number of Ways to Divide a Long Corridor|[C++](2147.cpp)|Hard|Math, String, Dynamic Programming|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2251|Number of Flowers in Full Bloom|[C++](2251.cpp)|Hard|Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set|
