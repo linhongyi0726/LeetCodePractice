@@ -113,6 +113,7 @@ Practice of LeetCode
 |322|Coin Change|[C++](0322.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search|
 |326|Power of Three|[C++](0326.cpp)|Easy|Math, Recursion|
 |328|Odd Even Linked List|[C++](0328.cpp)|Medium|Linked List|
+|330|Patching Array|[C++](0330.cpp)|Hard|Array, Greedy|
 |338|Counting Bits|[C++](0338.cpp)|Easy|Dynamic Programming, Bit Manipulation|
 |340|Longest Substring with At Most K Distinct Characters|[C++](0340.cpp)|Medium|Hash Table, String, Sliding Window|
 |341|Flatten Nested List Iterator|[C++](0341.cpp)|Medium|Stack, Tree, Depth-First Search, Design, Queue, Iterator|
@@ -195,6 +196,7 @@ Practice of LeetCode
 |1220|Count Vowels Permutation|[C++](1220.cpp)|Hard|Dynamic Programming|
 |1232|Check If It Is a Straight Line|[C++](1232.cpp)|Easy|Array, Math, Geometry|
 |1235|Maximum Profit in Job Scheduling|[C++](1235.cpp)|Hard|Array, Binary Search, Dynamic Programming, Sorting|
+|1266|Minimum Time Visiting All Points|[C++](1266.cpp)|Easy|Array, Math, Geometry|
 |1269|Number of Ways to Stay in the Same Place After Some Steps|[C++](1269.cpp)|Hard|Dynamic Programming|
 |1282|Group the People Given the Group Size They Belong To|[C++](1282.cpp)|Medium|Array, Hash Table|
 |1295|Find Numbers with Even Number of Digits|[C++](1295.cpp)|Easy|Array|
@@ -223,10 +225,12 @@ Practice of LeetCode
 |1662|Check If Two String Arrays are Equivalent|[C++](1662.cpp)|Easy|Array, String|
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |1685|Sum of Absolute Differences in a Sorted Array|[C++](1685.cpp)|Medium|Array, Math, Prefix Sum|
+|1688|Count of Matches in Tournament|[C++](1688.cpp)|Easy|Math, Simulation|
 |1727|Largest Submatrix With Rearrangements|[C++](1727.cpp)|Medium|Array, Greedy, Sorting, Matrix|
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
+|1798|Maximum Number of Consecutive Values You Can Make|[C++](1798.cpp)|Medium|Array, Greedy|
 |1814|Count Nice Pairs in an Array|[C++](1814.cpp)|Medium|Array, Hash Table, Math, Counting|
 |1838|Frequency of the Most Frequent Element|[C++](1838.cpp)|Medium|Array, Binary Search, Greedy, Sliding Window, Sorting, Prefix Sum|
 |1845|Seat Reservation Manager|[C++](1845.cpp)|Medium|Design, Heap (Priority Queue)|
@@ -246,6 +250,7 @@ Practice of LeetCode
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
 |2236|Root Equals Sum of Children|[C++](2236.cpp)|Easy|Tree, Binary Tree|
 |2251|Number of Flowers in Full Bloom|[C++](2251.cpp)|Hard|Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set|
+|2264|Largest 3-Same-Digit Number in String|[C++](2264.cpp)|Easy|String|
 |2265|Count Nodes Equal to Average of Subtree|[C++](2265.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |2367|Number of Arithmetic Triplets|[C++](2367.cpp)|Easy|Array, Hash Table, Two Pointers, Enumeration|
 |2391|Minimum Amount of Time to Collect Garbage|[C++](2391.cpp)|Medium|Array, String, Prefix Sum|
@@ -303,3 +308,5 @@ Practice of LeetCode
 |2937|Make Three Strings Equal|[C++](2937.cpp)|Easy|String|
 |2938|Separate Black and White Balls|[C++](2938.cpp)|Medium|Two Pointers, String, Greedy|
 |2939|Maximum Xor Product|[C++](2939.cpp)|Medium|Math, Greedy, Bit Manipulation|
+|2951|Find the Peaks|[C++](2951.cpp)|Easy|
+|2952|Minimum Number of Coins to be Added|[C++](2952.cpp)|Medium|

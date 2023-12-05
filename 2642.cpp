@@ -1,12 +1,57 @@
 // First time
 /*
     Floyd-Warshall
-*/
+    Calculate the shortest distance when init Graph and addEdge()
 
+    T: O(V^3)/S: O(V^2)
+    init: T: O(V^3)/S: O(V^2)
+    addEdge: T: O(V^2)/S: O(1)
+    shortestPath: T: O(1)/S: O(1)
+*/
+class Graph {
+public:
+    vector<vector<int>> dist;
+    Graph(int n, vector<vector<int>>& edges) {
+        dist = vector<vector<int>>(n, vector<int>(n, 1e8));
+        // init the dist from giving argument
+        for (int i = 0; i < n; ++i)
+            dist[i][i] = 0;
+        for (auto edge : edges)
+            dist[edge[0]][edge[1]] = edge[2];
+        // calculate the shortest dist
+        for (int k = 0; k < n; ++k) {
+            for (int i = 0; i < n; ++i) {
+                for (int j = 0; j < n; ++j) {
+                    dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
+                }
+            }
+        }
+    }
+    
+    void addEdge(vector<int> edge) {
+        int n = dist.size();
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                dist[i][j] = min(dist[i][j], dist[i][edge[0]] + edge[2] + dist[edge[1]][j]);
+            }
+        }
+    }
+    
+    int shortestPath(int node1, int node2) {
+        if (dist[node1][node2] != 1e8)
+            return dist[node1][node2];
+        return -1;
+    }
+};
 
 /*
     Dijkstra's algorithm
-    T: O((V+E)*log(E))/S: O(V+E)
+    Calculate the shortest distance when calling shortestPath()
+
+    T: O(ElogE)/S: O(V+E)
+    init: T: O(E)/S: O(V+E)
+    addEdge: T: O(1)/S: O(1)
+    shortestPath: T: O(ElogE)/S: O(E)
 */
 class Graph {
 public:
