@@ -51,6 +51,7 @@ Practice of LeetCode
 |86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
 |92|Reverse Linked List II|[C++](0092.cpp)|Medium|Linked List|
+|94|Binary Tree Inorder Traversal|[C++](0094.cpp)|Easy|Stack, Tree, Depth-First Search, Binary Tree|
 |98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
 |100|Same Tree|[Python](0100.py)|Easy|Tree, Depth-first Search|
 |101|Symmetric Tree|[Python](0101.py)|Easy|Tree, Depth-first Search, Breadth-first Search|
@@ -72,6 +73,8 @@ Practice of LeetCode
 |139|Word Break|[C++](0139.cpp)|Medium|Array, Hash Table, String, Dynamic Programming, Trie, Memoization|
 |141|Linked List Cycle|[C++](0141.cpp)|Easy|Hash Table, Linked List, Two Pointers|
 |142|Linked List Cycle II|[C++](0142.cpp)|Medium|Hash Table, Linked List, Two Pointers|
+|144|Binary Tree Preorder Traversal|[C++](0144.cpp)|Easy|Stack, Tree, Depth-First Search, Binary Tree|
+|145|Binary Tree Postorder Traversal|[C++](0145.cpp)|Easy|Stack, Tree, Depth-First Search, Binary Tree|
 |146|LRU Cache|[C++](0146.cpp)|Medium|Hash Table, Linked List, Design, Doubly-Linked List|
 |148|Sort List|[C++](0148.cpp)|Medium|Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort|
 |150|Evaluate Reverse Polish Notation|[C++](0150.cpp)|Medium|Array, Math, Stack|
@@ -148,6 +151,7 @@ Practice of LeetCode
 |557|Reverse Words in a String III|[C++](0557.cpp)|Easy|Two Pointers, String|
 |560|Subarray Sum Equals K|[C++](0560.cpp)|Medium|Array, Hash Table, Prefix Sum|
 |583|Delete Operation for Two Strings|[C++](0583.cpp)|Medium|String, Dynamic Programming|
+|606|Construct String from Binary Tree|[C++](0606.cpp)|Easy|String, Tree, Depth-First Search, Binary Tree|
 |622|Design Circular Queue|[C++](0622.cpp)|Medium|Array, Linked List, Design, Queue|
 |662|Maximum Width of Binary Tree|[C++](0662.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Binary Tree|
 |696|Count Binary Substrings|[C++](0696.cpp)|Easy|Two Pointers, String|
@@ -169,6 +173,7 @@ Practice of LeetCode
 |844|Backspace String Compare|[C++](0844.cpp)|Easy|Two Pointers, String, Stack, Simulation|
 |852|Peak Index in a Mountain Array|[C++](0852.cpp)|Medium|Array, Binary Search|
 |862|Shortest Subarray with Sum at Least K|[C++](0862.cpp)|Hard|Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue|
+|867|Transpose Matrix|[C++](0867.cpp)|Easy|Array, Matrix, Simulation|
 |876|Middle of the Linked List|[C++](0876.cpp)|Easy|Linked List, Two Pointers|
 |880|Decoded String at Index|[C++](0880.cpp)|Medium|String, Stack|
 |896|Monotonic Array|[C++](0896.cpp)|Easy|Array|
@@ -226,6 +231,7 @@ Practice of LeetCode
 |1672|Richest Customer Wealth|[C++](1672.cpp)|Easy|Array, Matrix|
 |1685|Sum of Absolute Differences in a Sorted Array|[C++](1685.cpp)|Medium|Array, Math, Prefix Sum|
 |1688|Count of Matches in Tournament|[C++](1688.cpp)|Easy|Math, Simulation|
+|1716|Calculate Money in Leetcode Bank|[C++](1716.cpp)|Easy|Math|
 |1727|Largest Submatrix With Rearrangements|[C++](1727.cpp)|Medium|Array, Greedy, Sorting, Matrix|
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
@@ -237,6 +243,7 @@ Practice of LeetCode
 |1846|Maximum Element After Decreasing and Rearranging|[C++](1846.cpp)|Medium|Array, Greedy, Sorting|
 |1877|Minimize Maximum Pair Sum in Array|[C++](1877.cpp)|Medium|Array, Two Pointers, Greedy, Sorting|
 |1887|Reduction Operations to Make the Array Elements Equal|[C++](1887.cpp)|Medium|Array, Sorting|
+|1903|Largest Odd Number in String|[C++](1903.cpp)|Easy|Math, String, Greedy|
 |1921|Eliminate Maximum Number of Monsters|[C++](1921.cpp)|Medium|Array, Greedy, Sorting|
 |1930|Unique Length-3 Palindromic Subsequences|[C++](1930.cpp)|Medium|Hash Table, String, Prefix Sum|
 |1980|Find Unique Binary String|[C++](1980.cpp)|Medium|Array, String, Backtracking|
@@ -308,5 +315,8 @@ Practice of LeetCode
 |2937|Make Three Strings Equal|[C++](2937.cpp)|Easy|String|
 |2938|Separate Black and White Balls|[C++](2938.cpp)|Medium|Two Pointers, String, Greedy|
 |2939|Maximum Xor Product|[C++](2939.cpp)|Medium|Math, Greedy, Bit Manipulation|
-|2951|Find the Peaks|[C++](2951.cpp)|Easy|
-|2952|Minimum Number of Coins to be Added|[C++](2952.cpp)|Medium|
+|2951|Find the Peaks|[C++](2951.cpp)|Easy|Array, Enumeration|
+|2952|Minimum Number of Coins to be Added|[C++](2952.cpp)|Medium|Array, Greedy, Sorting|
+|2960|Count Tested Devices After Test Operations|[C++](2960.cpp)|Easy|
+|2961|Double Modular Exponentiation|[C++](2961.cpp)|Medium|
+|2962|Count Subarrays Where Max Element Appears at Least K Times|[C++](2962.cpp)|Medium|
