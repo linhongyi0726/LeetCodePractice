@@ -146,6 +146,7 @@ Practice of LeetCode
 |515|Find Largest Value in Each Tree Row|[C++](0515.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Binary Tree|
 |518|Coin Change II|[C++](0518.cpp)|Medium|Array, Dynamic Programming|
 |520|Detect Capital|[Python](0520.py)|Easy|String|
+|531|Lonely Pixel I|[C++](0531.cpp)|Medium|Array, Hash Table, Matrix|
 |542|01 Matrix|[C++](0542.cpp)|Medium|Array, Dynamic Programming, Breadth-First Search, Matrix|
 |543|Diameter of Binary Tree|[C++](0543.cpp)|Easy|Tree, Depth-First Search, Binary Tree|
 |557|Reverse Words in a String III|[C++](0557.cpp)|Easy|Two Pointers, String|
@@ -204,6 +205,7 @@ Practice of LeetCode
 |1266|Minimum Time Visiting All Points|[C++](1266.cpp)|Easy|Array, Math, Geometry|
 |1269|Number of Ways to Stay in the Same Place After Some Steps|[C++](1269.cpp)|Hard|Dynamic Programming|
 |1282|Group the People Given the Group Size They Belong To|[C++](1282.cpp)|Medium|Array, Hash Table|
+|1287|Element Appearing More Than 25% In Sorted Array|[C++](1287.cpp)|Easy|Array|
 |1295|Find Numbers with Even Number of Digits|[C++](1295.cpp)|Easy|Array|
 |1299|Replace Elements with Greatest Element on Right Side|[C++](1299.cpp)|Easy|Array|
 |1337|The K Weakest Rows in a Matrix|[C++](1337.cpp)|Easy|Array, Binary Search, Sorting, Heap (Priority Queue), Matrix|
@@ -214,8 +216,10 @@ Practice of LeetCode
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
 |1424|Diagonal Traverse II|[C++](1424.cpp)|Medium|Array, Sorting, Heap (Priority Queue)|
 |1425|Constrained Subsequence Sum|[C++](1425.cpp)|Hard|Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
+|1436|Destination City|[C++](1436.cpp)|Easy|Hash Table, String|
 |1441|Build an Array With Stack Operations|[C++](1441.cpp)|Medium|Array, Stack, Simulation|
 |1458|Max Dot Product of Two Subsequences|[C++](1458.cpp)|Hard|Array, Dynamic Programming|
+|1464|Maximum Product of Two Elements in an Array|[C++](1464.cpp)|Easy|Array, Sorting, Heap (Priority Queue)|
 |1470|Shuffle the Array|[C++](1470.cpp)|Easy|Array|
 |1480|Running Sum of 1d Array|[C++](1480.cpp)|Easy|Array, Prefix Sum|
 |1503|Last Moment Before All Ants Fall Out of a Plank|[C++](1503.cpp)|Medium|Array, Brainteaser, Simulation|
@@ -223,6 +227,7 @@ Practice of LeetCode
 |1530|Number of Good Leaf Nodes Pairs|[C++](1530.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |1535|Find the Winner of an Array Game|[C++](1535.cpp)|Medium|Array, Simulation|
 |1561|Maximum Number of Coins You Can Get|[C++](1561.cpp)|Medium|Array, Math, Greedy, Sorting, Game Theory|
+|1582|Special Positions in a Binary Matrix|[C++](1582.cpp)|Easy|Array, Matrix|
 |1611|Minimum One Bit Operations to Make Integers Zero|[C++](1611.cpp)|Hard|Dynamic Programming, Bit Manipulation, Memoization|
 |1630|Arithmetic Subarrays|[C++](1630.cpp)|Medium|Array, Sorting|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
@@ -262,6 +267,7 @@ Practice of LeetCode
 |2367|Number of Arithmetic Triplets|[C++](2367.cpp)|Easy|Array, Hash Table, Two Pointers, Enumeration|
 |2391|Minimum Amount of Time to Collect Garbage|[C++](2391.cpp)|Medium|Array, String, Prefix Sum|
 |2433|Find The Original Array of Prefix Xor|[C++](2433.cpp)|Medium|Array, Bit Manipulation|
+|2482|Difference Between Ones and Zeros in Row and Column|[C++](2482.cpp)|Medium|
 |2571|Minimum Operations to Reduce an Integer to 0|[C++](2571.cpp)|Medium|Dynamic Programming, Greedy, Bit Manipulation|
 |2642|Design Graph With Shortest Path Calculator|[C++](2642.cpp)|Hard|Graph, Design, Heap (Priority Queue), Shortest Path|
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
