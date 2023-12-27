@@ -50,6 +50,7 @@ Practice of LeetCode
 |83|Remove Duplicates from Sorted List|[C++](0083.cpp), [Python](0083.py)|Easy|Linked List|
 |86|Partition List|[C++](0086.cpp)|Medium|Linked List, Two Pointers|
 |88|Merge Sorted Array|[C++](0088.cpp), [Python](0088.py)|Easy|Array, Two Pointers|
+|91|Decode Ways|[C++](0091.cpp)|Medium|String, Dynamic Programming|
 |92|Reverse Linked List II|[C++](0092.cpp)|Medium|Linked List|
 |94|Binary Tree Inorder Traversal|[C++](0094.cpp)|Easy|Stack, Tree, Depth-First Search, Binary Tree|
 |98|Validate Binary Search Tree|[C++](0098.cpp)|Medium|Tree, Depth-First Search, Binary Search Tree, Binary Tree|
@@ -198,6 +199,7 @@ Practice of LeetCode
 |1089|Duplicate Zeros|[C++](1089.cpp)|Easy|Array, Two Pointers|
 |1095|Find in Mountain Array|[C++](1095.cpp)|Hard|Array, Binary Search, Interactive|
 |1143|Longest Common Subsequence|[C++](1143.cpp)|Medium|String, Dynamic Programming|
+|1155|Number of Dice Rolls With Target Sum|[C++](1155.cpp)|Medium|Dynamic Programming|
 |1160|Find Words That Can Be Formed by Characters|[C++](1160.cpp)|Easy|Array, Hash Table, String|
 |1197|Minimum Knight Moves|[C++](1197.cpp)|Medium|Breadth-First Search|
 |1220|Count Vowels Permutation|[C++](1220.cpp)|Hard|Dynamic Programming|
@@ -215,6 +217,7 @@ Practice of LeetCode
 |1356|Sort Integers by The Number of 1 Bits|[C++](1356.cpp)|Easy|Array, Bit Manipulation, Sorting, Counting|
 |1361|Validate Binary Tree Nodes|[C++](1361.cpp)|Medium|Tree, Depth-First Search, Breadth-First Search, Union Find, Graph, Binary Tree|
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons|[C++](1420.cpp)|Hard|Dynamic Programming, Prefix Sum|
+|1422|Maximum Score After Splitting a String|[C++](1422.cpp)|Easy|String|
 |1424|Diagonal Traverse II|[C++](1424.cpp)|Medium|Array, Sorting, Heap (Priority Queue)|
 |1425|Constrained Subsequence Sum|[C++](1425.cpp)|Hard|Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue|
 |1436|Destination City|[C++](1436.cpp)|Easy|Hash Table, String|
@@ -228,6 +231,7 @@ Practice of LeetCode
 |1530|Number of Good Leaf Nodes Pairs|[C++](1530.cpp)|Medium|Tree, Depth-First Search, Binary Tree|
 |1535|Find the Winner of an Array Game|[C++](1535.cpp)|Medium|Array, Simulation|
 |1561|Maximum Number of Coins You Can Get|[C++](1561.cpp)|Medium|Array, Math, Greedy, Sorting, Game Theory|
+|1578|Minimum Time to Make Rope Colorful|[C++](1578.cpp)|Medium|Array, String, Dynamic Programming, Greedy|
 |1582|Special Positions in a Binary Matrix|[C++](1582.cpp)|Easy|Array, Matrix|
 |1611|Minimum One Bit Operations to Make Integers Zero|[C++](1611.cpp)|Hard|Dynamic Programming, Bit Manipulation, Memoization|
 |1630|Arithmetic Subarrays|[C++](1630.cpp)|Medium|Array, Sorting|
@@ -241,6 +245,7 @@ Practice of LeetCode
 |1716|Calculate Money in Leetcode Bank|[C++](1716.cpp)|Easy|Math|
 |1727|Largest Submatrix With Rearrangements|[C++](1727.cpp)|Medium|Array, Greedy, Sorting, Matrix|
 |1743|Restore the Array From Adjacent Pairs|[C++](1743.cpp)|Medium|Array, Hash Table|
+|1758|Minimum Changes To Make Alternating Binary String|[C++](1758.cpp)|Easy|String|
 |1759|Count Number of Homogenous Substrings|[C++](1759.cpp)|Medium|Math, String|
 |1793|Maximum Score of a Good Subarray|[C++](1793.cpp)|Hard|Array, Two Pointers, Binary Search, Stack, Monotonic Stack|
 |1798|Maximum Number of Consecutive Values You Can Make|[C++](1798.cpp)|Medium|Array, Greedy|
