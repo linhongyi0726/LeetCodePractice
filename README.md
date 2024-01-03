@@ -138,6 +138,7 @@ Practice of LeetCode
 |424|Longest Repeating Character Replacement|[C++](0424.cpp)|Medium|Hash Table, String, Sliding Window|
 |430|Flatten a Multilevel Doubly Linked List|[C++](0430.cpp)|Medium|Linked List, Depth-First Search, Doubly-Linked List|
 |448|Find All Numbers Disappeared in an Array|[C++](0448.cpp)|Easy|Array, Hash Table|
+|455|Assign Cookies|[C++](0455.cpp)|Easy|Array, Two Pointers, Greedy, Sorting|
 |456|132 Pattern|[C++](0456.cpp)|Medium|Array, Binary Search, Stack, Monotonic Stack, Ordered Set|
 |458|Poor Pigs|[C++](0458.cpp)|Hard|Math, Dynamic Programming, Combinatorics|
 |485|Max Consecutive Ones|[C++](0485.cpp)|Easy|Array|
@@ -234,6 +235,7 @@ Practice of LeetCode
 |1578|Minimum Time to Make Rope Colorful|[C++](1578.cpp)|Medium|Array, String, Dynamic Programming, Greedy|
 |1582|Special Positions in a Binary Matrix|[C++](1582.cpp)|Easy|Array, Matrix|
 |1611|Minimum One Bit Operations to Make Integers Zero|[C++](1611.cpp)|Hard|Dynamic Programming, Bit Manipulation, Memoization|
+|1624|Largest Substring Between Two Equal Characters|[C++](1624.cpp)|Easy|Hash Table, String|
 |1630|Arithmetic Subarrays|[C++](1630.cpp)|Medium|Array, Sorting|
 |1637|Widest Vertical Area Between Two Points Containing No Points|[C++](1637.cpp)|Medium|Array, Sorting|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[C++](1647.cpp)|Medium|Hash Table, String, Greedy, Sorting|
@@ -255,6 +257,7 @@ Practice of LeetCode
 |1846|Maximum Element After Decreasing and Rearranging|[C++](1846.cpp)|Medium|Array, Greedy, Sorting|
 |1877|Minimize Maximum Pair Sum in Array|[C++](1877.cpp)|Medium|Array, Two Pointers, Greedy, Sorting|
 |1887|Reduction Operations to Make the Array Elements Equal|[C++](1887.cpp)|Medium|Array, Sorting|
+|1897|Redistribute Characters to Make All Strings Equal|[C++](1897.cpp)|Easy|Hash Table, String, Counting|
 |1903|Largest Odd Number in String|[C++](1903.cpp)|Easy|Math, String, Greedy|
 |1913|Maximum Product Difference Between Two Pairs|[C++](1913.cpp)|Easy|Array, Sorting|
 |1921|Eliminate Maximum Number of Monsters|[C++](1921.cpp)|Medium|Array, Greedy, Sorting|
@@ -265,6 +268,7 @@ Practice of LeetCode
 |2024|Maximize the Confusion of an Exam|[C++](2024.cpp)|Medium|String, Binary Search, Sliding Window, Prefix Sum|
 |2038|Remove Colored Pieces if Both Neighbors are the Same Color|[C++](2038.cpp)|Medium|Math, String, Greedy, Game Theory|
 |2050|Parallel Courses III|[C++](2050.cpp)|Hard|Array, Dynamic Programming, Graph, Topological Sort|
+|2125|Number of Laser Beams in a Bank|[C++](2125.cpp)|Medium|Array, Math, String, Matrix|
 |2131|Longest Palindrome by Concatenating Two Letter Words|[C++](2131.cpp)|Medium|Array, Hash Table, String, Greedy, Counting|
 |2147|Number of Ways to Divide a Long Corridor|[C++](2147.cpp)|Hard|Math, String, Dynamic Programming|
 |2235|Add Two Integers|[C++](2235.cpp)|Easy|Math|
@@ -278,6 +282,7 @@ Practice of LeetCode
 |2433|Find The Original Array of Prefix Xor|[C++](2433.cpp)|Medium|Array, Bit Manipulation|
 |2482|Difference Between Ones and Zeros in Row and Column|[C++](2482.cpp)|Medium|
 |2571|Minimum Operations to Reduce an Integer to 0|[C++](2571.cpp)|Medium|Dynamic Programming, Greedy, Bit Manipulation|
+|2610|Convert an Array Into a 2D Array With Conditions|[C++](2610.cpp)|Medium|Array, Hash Table|
 |2642|Design Graph With Shortest Path Calculator|[C++](2642.cpp)|Hard|Graph, Design, Heap (Priority Queue), Shortest Path|
 |2706|Buy Two Chocolates|[C++](2706.cpp)|Easy|Array, Sorting|
 |2739|Total Distance Traveled|[C++](2739.cpp)|Easy|Math, Simulation|
