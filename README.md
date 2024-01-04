@@ -321,6 +321,7 @@ Practice of LeetCode
 |2864|Maximum Odd Binary Number|[C++](2864.cpp)|Easy|Math, String, Greedy|
 |2865|Beautiful Towers I|[C++](2865.cpp)|Medium|Array, Stack, Monotonic Stack|
 |2866|Beautiful Towers II|[C++](2866.cpp)|Medium|Array, Stack, Monotonic Stack|
+|2870|Minimum Number of Operations to Make Array Empty|[C++](2870.cpp)|Medium|Array, Hash Table, Greedy, Counting|
 |2899|Last Visited Integers|[C++](2899.cpp)|Easy|Array, String, Simulation|
 |2900|Longest Unequal Adjacent Groups Subsequence I|[C++](2900.cpp)|Medium|Array, String, Dynamic Programming, Greedy|
 |2901|Longest Unequal Adjacent Groups Subsequence II|[C++](2901.cpp)|Medium|Array, String, Dynamic Programming|
